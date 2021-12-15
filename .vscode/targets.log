@@ -1,0 +1,3126 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+ 
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+ 
+
+# Make data base, printed on Wed Dec 15 08:11:33 2021
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# makefile (from `Makefile', line 119)
+_LINUX_GREP_CWD := \/Users\/katy.garnier\/Documents\/cpp_projects\/sfml-vscode-boilerplate
+# makefile (from `Makefile', line 177)
+OBJ_SUBDIRS := bin/Release/obj/Platform bin/Release/obj/Platform/MacOS bin/Release/obj/Platform/Unix bin/Release/obj/Platform/Win32 bin/Release/obj/Utility
+# makefile (from `env/linux.all.mk', line 21)
+PRODUCTION_LINUX_APP_NAME := SFML Boilerplate
+# makefile (from `Makefile', line 153)
+BLD_DIR := bin/Release
+# environment
+VSCODE_LOG_NATIVE = false
+# makefile (from `Makefile', line 179)
+DEP_DIR := bin/Release/dep
+# makefile (from `Makefile', line 162)
+TARGET := bin/Release/game.exe
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# makefile (from `Makefile', line 228)
+OBJ_COMPILE_T = $(CC) $(CFLAGS_DEPS_T) $(_BUILD_MACROS) $(_INCLUDE_DIRS) $(_INCLUDE_PCH) $(CFLAGS) -o $@ -c $<
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/katy.garnier/Documents/cpp_projects/sfml-vscode-boilerplate
+# makefile (from `Makefile', line 243)
+UNI_LINK := ⇛
+# makefile (from `Makefile', line 10)
+SHELL := /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# makefile (from `Makefile', line 126)
+PRODUCTION_MACOS_BUNDLE_DISPLAY_NAME = App
+# makefile (from `env/linux.all.mk', line 2)
+CFLAGS := -O2 -std=c++17 -Wall -Werror -Wextra -Wpedantic -Wunreachable-code -Wunused -Wignored-qualifiers -Wcast-align -Wformat-nonliteral -Wformat=2 -Winvalid-pch -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wredundant-decls -Wswitch-default -Wodr -fdiagnostics-color=always -fpic
+# makefile (from `Makefile', line 205)
+_DIRECTORIES := bin bin/Release bin/Release/dep bin/Release/dep/Platform bin/Release/dep/Platform/MacOS bin/Release/dep/Platform/Unix bin/Release/dep/Platform/Win32 bin/Release/dep/Utility bin/Release/obj bin/Release/obj/Platform bin/Release/obj/Platform/MacOS bin/Release/obj/Platform/Unix bin/Release/obj/Platform/Win32 bin/Release/obj/Utility
+# makefile (from `bin/Release/dep/PCH.d', line 1)
+MAKEFILE_LIST :=  Makefile env/.all.mk env/.release.mk env/linux.all.mk bin/Release/dep/Platform/MacOS/MacOSPlatform.cpp.d bin/Release/dep/Platform/Unix/LinuxPlatform.cpp.d bin/Release/dep/Platform/Win32/WindowsPlatform.cpp.d bin/Release/dep/Main.cpp.d bin/Release/dep/PCH.d
+# makefile (from `Makefile', line 88)
+LIB_DIR := lib
+# makefile (from `Makefile', line 186)
+_PCH_EXT := hpp
+# makefile (from `Makefile', line 171)
+OBJ_DIR := bin/Release/obj
+# makefile (from `Makefile', line 185)
+_PCH_HFILE := PCH.hpp
+# makefile (from `Makefile', line 175)
+_OBJS := Platform/MacOS/MacOSPlatform.cpp.o Platform/Unix/LinuxPlatform.cpp.o Platform/Win32/WindowsPlatform.cpp.o Main.cpp.o
+# makefile (from `Makefile', line 236)
+POST_COMPILE = mv -f $(DEP_DIR)/$*.Td $(DEP_DIR)/$*.d && touch $@
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# makefile (from `env/.all.mk', line 5)
+_CFLAGS_STD := -std=c++17
+# makefile (from `Makefile', line 129)
+PRODUCTION_MACOS_BACKGROUND = dmg-background
+# makefile (from `Makefile', line 238)
+POST_COMPILE_RC = mv -f $(DEP_DIR)/$*.rc.Td $(DEP_DIR)/$*.rc.d && touch $@
+# makefile (from `env/.all.mk', line 21)
+PRODUCTION_EXCLUDE := *.psd *.rar *.7z Thumbs.db .DS_Store
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# makefile (from `Makefile', line 16)
+_BUILDL := release
+# makefile (from `Makefile', line 254)
+ORIGIN_FLAG := '-Wl,-R$$ORIGIN'
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/l0/7hz0gfps5l732f3pzgvz49000000gq/T/vscode-ipc-01e9373c-0af5-40cf-a63a-55d8af102f39.sock
+# makefile (from `env/linux.all.mk', line 19)
+PRODUCTION_LINUX_ICON := sfml
+# makefile (from `Makefile', line 189)
+_SYMBOLS := -s
+# environment
+VSCODE_CWD = /
+# makefile (from `env/linux.all.mk', line 7)
+INCLUDE_DIRS := /usr/local/include
+# makefile (from `Makefile', line 154)
+_BASENAME := game
+# environment
+PATH = /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+# makefile (from `Makefile', line 212)
+_Q := @
+# makefile (from `Makefile', line 79)
+BUILD_DEPENDENCIES = 
+# makefile (from `env/.all.mk', line 2)
+CLEAN_OUTPUT := true
+# makefile (from `Makefile', line 103)
+TEST_DIR := 
+# makefile (from `Makefile', line 127)
+PRODUCTION_MACOS_BUNDLE_NAME = App
+# makefile (from `Makefile', line 207)
+_CLEAN := true
+# makefile (from `Makefile', line 128)
+PRODUCTION_MACOS_MAKE_DMG = true
+# environment
+VSCODE_LOG_STACK = false
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# makefile (from `env/.all.mk', line 1)
+MAX_PARALLEL_JOBS := 8
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# makefile (from `Makefile', line 282)
+linking_with = 	$(if $(_CLEAN),@printf '\n$(color_blue)$(UNI_LINK)  Linking: $(1)')
+# makefile (from `Makefile', line 74)
+BUILD_MACROS = 
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.QvlLVa3Htw/Listeners
+# automatic
+%F = $(notdir $%)
+# makefile (from `Makefile', line 180)
+_DEPS := Platform/MacOS/MacOSPlatform.cpp.d Platform/Unix/LinuxPlatform.cpp.d Platform/Win32/WindowsPlatform.cpp.d Main.cpp.d
+# makefile (from `Makefile', line 220)
+CFLAGS_DEPS = -MT $@ -MMD -MP -MF $(DEP_DIR)/$*.Td
+# environment
+VSCODE_PIPE_LOGGING = true
+# makefile (from `Makefile', line 176)
+OBJS := bin/Release/obj/Platform/MacOS/MacOSPlatform.cpp.o bin/Release/obj/Platform/Unix/LinuxPlatform.cpp.o bin/Release/obj/Platform/Win32/WindowsPlatform.cpp.o bin/Release/obj/Main.cpp.o
+# environment
+PWD = /Users/katy.garnier/Documents/cpp_projects/sfml-vscode-boilerplate
+# makefile (from `Makefile', line 96)
+_INCLUDE_DIRS := -Isrc/ -Ilib/ -I/usr/local/include
+# makefile (from `env/.all.mk', line 6)
+_CFLAGS_WARNINGS := -Wall -Werror -Wextra -Wpedantic -Wunreachable-code -Wunused -Wignored-qualifiers -Wcast-align -Wformat-nonliteral -Wformat=2 -Winvalid-pch -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wredundant-decls -Wswitch-default -Wodr
+# makefile (from `Makefile', line 385)
+define do_copy_to
+	@printf  '$(color_blue)cp -r $(1) $(2)\n'
+	$(shell cp -r "$(1)" "$(2)")
+endef
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# makefile (from `Makefile', line 91)
+SOURCE_FILES := Platform/MacOS/MacOSPlatform.cpp Platform/Unix/LinuxPlatform.cpp Platform/Win32/WindowsPlatform.cpp Platform/Win32/Resource.rc Main.cpp
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+HOME = /Users/katy.garnier
+# makefile (from `Makefile', line 224)
+_INCLUDE_PCH := -include bin/Release/obj/PCH.hpp
+# default
+MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
+# makefile (from `Makefile', line 22)
+SRC_TARGET = 
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/katy.garnier/Library/Application Support/Code/CachedData/fe719cd3e5825bf14e14182fddeb88ee8daf044f
+# environment
+LOGNAME = katy.garnier
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# makefile (from `env/.all.mk', line 3)
+DUMP_ASSEMBLY := false
+# makefile (from `Makefile', line 60)
+PRODUCTION_FOLDER_RESOURCES := build
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile (from `Makefile', line 290)
+MKDIR := @mkdir -p
+# makefile (from `Makefile', line 192)
+_PCH := bin/Release/obj/PCH.hpp
+# environment
+XPC_FLAGS = 0x0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := makepch
+# makefile (from `env/.all.mk', line 17)
+PRECOMPILED_HEADER := PCH
+# makefile (from `Makefile', line 167)
+_LIB_DIRS := -Llib/ -L/usr/local/lib
+# environment
+SHLVL = 1
+# makefile (from `env/linux.all.mk', line 1)
+CC := g++
+# makefile (from `env/.all.mk', line 7)
+_CFLAGS_OTHER := -fdiagnostics-color=always
+# makefile (from `env/linux.all.mk', line 10)
+BUILD_FLAGS :=  -pthread
+# makefile (from `Makefile', line 277)
+define compile_with
+	$(if $(_CLEAN),@printf '   $(color_blue)$($(2):$(OBJ_DIR)/%=%)\n',@printf '$(color_blue)')
+	$(_Q)$(3) && $(4)
+endef
+# makefile (from `Makefile', line 37)
+ 
+BUILD_STATIC = false
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = katy.garnier
+# makefile
+.DEFAULT_GOAL := all
+# makefile (from `Makefile', line 83)
+NAME = game.exe
+# makefile (from `Makefile', line 222)
+PCH_COMPILE = $(CC) $(CFLAGS_DEPS) $(_BUILD_MACROS) $(CFLAGS) $(_INCLUDE_DIRS) -o $@ -c $<
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := /Library/Developer/CommandLineTools/usr/bin/make
+# makefile (from `Makefile', line 237)
+POST_COMPILE_T = mv -f $(DEP_DIR)/.$(TEST_DIR)/$*.Td $(DEP_DIR)/.$(TEST_DIR)/$*.d && touch $@
+# default
+.VARIABLES := 
+# makefile (from `Makefile', line 99)
+_LINK_LIBRARIES := -lsfml-graphics -lsfml-audio -lsfml-network -lsfml-window -lsfml-system -lstdc++fs -lX11
+# environment
+TMPDIR = /var/folders/l0/7hz0gfps5l732f3pzgvz49000000gq/T/
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /Users/katy.garnier/Library/Application Support/Code/1.63.1-main.sock
+# makefile (from `Makefile', line 390)
+copy_to = 	$(if $(wildcard $(2)/$(notdir $(1))),,$(if $(_CLEAN),$(call do_copy_to_clean,$(1),$(2)),$(call do_copy_to,$(1),$(2))))
+# makefile (from `Makefile', line 93)
+PROJECT_DIRS := Platform Platform/MacOS Platform/Unix Platform/Win32 Utility
+# makefile (from `Makefile', line 217)
+RC = windres.exe
+# makefile
+MAKEFLAGS =  --no-print-directory -Rrqp
+# makefile (from `Makefile', line 194)
+_PCH_GCH := bin/Release/obj/PCH.hpp.gch
+# environment
+MFLAGS = - --no-print-directory -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.2650272.2650278
+# makefile (from `Makefile', line 187)
+_PCH_COMPILER_EXT := gch
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# makefile (from `Makefile', line 98)
+_BUILD_MACROS := 
+# makefile (from `Makefile', line 125)
+PRODUCTION_MACOS_BUNDLE_COMPANY = developer
+# makefile (from `Makefile', line 275)
+color_purple := \033[0;35m
+# automatic
++F = $(notdir $+)
+# makefile (from `Makefile', line 380)
+define do_copy_to_clean
+	@printf  '$(color_blue)$(UNI_COPY)  Copying \"$(1)\" to \"$(CURDIR)/$(2)\"\n'
+	$(shell cp -r "$(1)" "$(2)")
+endef
+# makefile (from `Makefile', line 234)
+ASM_COMPILE = objdump -d -C -Mintel $< > $@
+# makefile (from `env/linux.all.mk', line 4)
+LIB_DIRS := /usr/local/lib
+# makefile (from `Makefile', line 227)
+OBJ_COMPILE = $(CC) $(CFLAGS_DEPS) $(_BUILD_MACROS) $(_INCLUDE_DIRS) $(_INCLUDE_PCH) $(CFLAGS) -o $@ -c $<
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F7:0x0:0x0
+# environment
+COMMAND_MODE = unix2003
+# makefile (from `Makefile', line 13)
+PLATFORM = linux
+# default
+MAKEFILES := 
+# makefile (from `Makefile', line 124)
+PRODUCTION_MACOS_ICON = icon
+# makefile (from `Makefile', line 87)
+SRC_DIR := src
+# makefile (from `Makefile', line 15)
+BUILD = Release
+# automatic
+<F = $(notdir $<)
+# makefile (from `Makefile', line 209)
+_TARGET_DEPS := bin/Release/obj/PCH.hpp.gch bin/Release/obj/Platform/MacOS/MacOSPlatform.cpp.o bin/Release/obj/Platform/Unix/LinuxPlatform.cpp.o bin/Release/obj/Platform/Win32/WindowsPlatform.cpp.o bin/Release/obj/Main.cpp.o  
+# makefile (from `env/linux.all.mk', line 22)
+PRODUCTION_LINUX_APP_COMMENT := My SFML Game
+# environment
+LC_ALL = C
+# makefile (from `env/linux.all.mk', line 14)
+LINK_LIBRARIES := sfml-graphics sfml-audio sfml-network sfml-window sfml-system stdc++fs X11
+# makefile (from `Makefile', line 221)
+CFLAGS_DEPS_T = -MT $@ -MMD -MP -MF $(DEP_DIR)/.$(TEST_DIR)/$*.Td
+# automatic
+^F = $(notdir $^)
+# makefile (from `Makefile', line 181)
+DEPS := bin/Release/dep/Platform/MacOS/MacOSPlatform.cpp.d bin/Release/dep/Platform/Unix/LinuxPlatform.cpp.d bin/Release/dep/Platform/Win32/WindowsPlatform.cpp.d bin/Release/dep/Main.cpp.d bin/Release/dep/PCH.d
+# makefile (from `Makefile', line 230)
+RC_COMPILE = -$(RC) -J rc -O coff --preprocessor-arg=-MT --preprocessor-arg=$@ --preprocessor-arg=-MMD --preprocessor-arg=-MP --preprocessor-arg=-MF --preprocessor-arg=$(DEP_DIR)/$*.rc.Td $(_BUILD_MACROS) $(_INCLUDE_DIRS) -i $< -o $@
+# makefile (from `Makefile', line 2)
+SUFFIXES = 
+# makefile (from `Makefile', line 242)
+UNI_COPY := ➦
+# makefile (from `env/.all.mk', line 28)
+PRODUCTION_DEPENDENCIES := content
+# default
+.INCLUDE_DIRS = /usr/local/include
+# makefile (from `Makefile', line 182)
+DEP_SUBDIRS := bin/Release/dep/Platform bin/Release/dep/Platform/MacOS bin/Release/dep/Platform/Unix bin/Release/dep/Platform/Win32 bin/Release/dep/Utility
+# makefile (from `Makefile', line 274)
+color_blue := \033[0;34m
+# environment
+MAKELEVEL := 1
+# makefile (from `Makefile', line 286)
+build_deps = 	$(foreach dep,$(BUILD_DEPENDENCIES),$(call copy_to,$(dep),$(BLD_DIR)))
+# makefile (from `Makefile', line 169)
+_SOURCES_IF_RC := Platform/MacOS/MacOSPlatform.cpp Platform/Unix/LinuxPlatform.cpp Platform/Win32/WindowsPlatform.cpp Main.cpp
+# environment
+LANG = C
+# environment
+VSCODE_PID = 15031
+# makefile (from `env/.all.mk', line 19)
+PRODUCTION_FOLDER := build
+# variable set hash-table stats:
+# Load=152/1024=15%, Rehash=0, Collisions=36/420=9%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# bin/Release (device 16777220, inode 2648276): No files, no impossibilities so far.
+# . (device 16777220, inode 2570019): 18 files, no impossibilities.
+# bin/Release/dep/Platform/Win32 (device 16777220, inode 2648281): 3 files, no impossibilities so far.
+# bin (device 16777220, inode 2648275): No files, no impossibilities so far.
+# bin/Release/dep/Platform (device 16777220, inode 2648278): No files, no impossibilities so far.
+# /Users/katy.garnier/.local/share (device 16777220, inode 105513): 3 files, no impossibilities.
+# bin/Release/obj/Platform (device 16777220, inode 2648284): 5 files, no impossibilities.
+# bin/Release/dep/Platform/Unix (device 16777220, inode 2648280): 3 files, no impossibilities so far.
+# src (device 16777220, inode 2570135): No files, no impossibilities so far.
+# bin/Release/dep/Platform/MacOS (device 16777220, inode 2648279): 3 files, no impossibilities so far.
+# bin/Release/obj (device 16777220, inode 2648283): No files, no impossibilities so far.
+# bin/Release/dep (device 16777220, inode 2648277): 6 files, no impossibilities so far.
+
+# 41 files, no impossibilities in 12 directories.
+
+# Implicit Rules
+
+bin/Release/obj/%.o: src/% bin/Release/obj/PCH.hpp.gch | bin/Release/dep/%.d bin bin/Release bin/Release/dep bin/Release/dep/Platform bin/Release/dep/Platform/MacOS bin/Release/dep/Platform/Unix bin/Release/dep/Platform/Win32 bin/Release/dep/Utility bin/Release/obj bin/Release/obj/Platform bin/Release/obj/Platform/MacOS bin/Release/obj/Platform/Unix bin/Release/obj/Platform/Win32 bin/Release/obj/Utility
+#  commands to execute (from `Makefile', line 307):
+	$(call compile_with,@,<,$(OBJ_COMPILE),$(POST_COMPILE))
+	
+
+bin/Release/obj/./%.o: /% bin/Release/obj/PCH.hpp.gch | bin/Release/dep/./%.d bin bin/Release bin/Release/dep bin/Release/dep/Platform bin/Release/dep/Platform/MacOS bin/Release/dep/Platform/Unix bin/Release/dep/Platform/Win32 bin/Release/dep/Utility bin/Release/obj bin/Release/obj/Platform bin/Release/obj/Platform/MacOS bin/Release/obj/Platform/Unix bin/Release/obj/Platform/Win32 bin/Release/obj/Utility
+#  commands to execute (from `Makefile', line 310):
+	$(call compile_with,@,<,$(OBJ_COMPILE_T),$(POST_COMPILE_T))
+	
+
+bin/Release/obj/%.hpp.gch: src/%.hpp | bin/Release/dep/%.d bin bin/Release bin/Release/dep bin/Release/dep/Platform bin/Release/dep/Platform/MacOS bin/Release/dep/Platform/Unix bin/Release/dep/Platform/Win32 bin/Release/dep/Utility bin/Release/obj bin/Release/obj/Platform bin/Release/obj/Platform/MacOS bin/Release/obj/Platform/Unix bin/Release/obj/Platform/Win32 bin/Release/obj/Utility
+#  commands to execute (from `Makefile', line 313):
+	$(call compile_with,@,<,$(PCH_COMPILE),$(POST_COMPILE))
+	
+
+bin/Release/obj/%.res: src/%.rc | bin/Release/dep/%.rc.d bin bin/Release bin/Release/dep bin/Release/dep/Platform bin/Release/dep/Platform/MacOS bin/Release/dep/Platform/Unix bin/Release/dep/Platform/Win32 bin/Release/dep/Utility bin/Release/obj bin/Release/obj/Platform bin/Release/obj/Platform/MacOS bin/Release/obj/Platform/Unix bin/Release/obj/Platform/Win32 bin/Release/obj/Utility
+#  commands to execute (from `Makefile', line 316):
+ 
+	$(call compile_with,@,<,$(RC_COMPILE),$(POST_COMPILE_RC))
+	
+
+/%.o.asm: bin/Release/obj/%.o
+#  commands to execute (from `Makefile', line 319):
+	$(if $(_CLEAN),@printf '   $(color_purple)$@\n')
+	$(_Q)$(ASM_COMPILE)
+	
+
+bin/Release/lib%-s.a: bin/Release/obj/PCH.hpp.gch bin/Release/obj/Platform/MacOS/MacOSPlatform.cpp.o bin/Release/obj/Platform/Unix/LinuxPlatform.cpp.o bin/Release/obj/Platform/Win32/WindowsPlatform.cpp.o bin/Release/obj/Main.cpp.o
+#  commands to execute (from `Makefile', line 323):
+	$(call linking_with,$@)
+	-$(_Q)rm -rf $@
+	$(_Q)ar -c -r -s $@ $(OBJS)
+	@printf '\n'
+	
+
+bin/Release/dep/%.d:
+#  commands to execute (from `Makefile', line 468):
+	
+
+%.c:
+
+%.cpp:
+
+%.h:
+
+%.hpp:
+
+%.rc:
+
+%.res:
+
+%.inl:
+
+%.o:
+
+%.d:
+
+%.asm:
+
+# 17 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+bin/Release/obj/PCH.hpp.pch: src/PCH.hpp /usr/local/include/SFML/Audio.hpp /usr/local/include/SFML/System.hpp /usr/local/include/SFML/Config.hpp /usr/local/include/SFML/System/Clock.hpp /usr/local/include/SFML/System/Export.hpp /usr/local/include/SFML/System/Time.hpp /usr/local/include/SFML/System/Err.hpp /usr/local/include/SFML/System/FileInputStream.hpp /usr/local/include/SFML/System/InputStream.hpp /usr/local/include/SFML/System/NonCopyable.hpp /usr/local/include/SFML/System/Lock.hpp /usr/local/include/SFML/System/MemoryInputStream.hpp /usr/local/include/SFML/System/Mutex.hpp /usr/local/include/SFML/System/Sleep.hpp /usr/local/include/SFML/System/String.hpp /usr/local/include/SFML/System/Utf.hpp /usr/local/include/SFML/System/Utf.inl /usr/local/include/SFML/System/String.inl /usr/local/include/SFML/System/Thread.hpp /usr/local/include/SFML/System/Thread.inl /usr/local/include/SFML/System/ThreadLocal.hpp /usr/local/include/SFML/System/ThreadLocalPtr.hpp /usr/local/include/SFML/System/ThreadLocalPtr.inl /usr/local/include/SFML/System/Vector2.hpp /usr/local/include/SFML/System/Vector2.inl /usr/local/include/SFML/System/Vector3.hpp /usr/local/include/SFML/System/Vector3.inl /usr/local/include/SFML/Audio/InputSoundFile.hpp /usr/local/include/SFML/Audio/Export.hpp /usr/local/include/SFML/Audio/Listener.hpp /usr/local/include/SFML/Audio/Music.hpp /usr/local/include/SFML/Audio/SoundStream.hpp /usr/local/include/SFML/Audio/SoundSource.hpp /usr/local/include/SFML/Audio/AlResource.hpp /usr/local/include/SFML/Audio/OutputSoundFile.hpp /usr/local/include/SFML/Audio/Sound.hpp /usr/local/include/SFML/Audio/SoundBuffer.hpp /usr/local/include/SFML/Audio/SoundBufferRecorder.hpp /usr/local/include/SFML/Audio/SoundRecorder.hpp /usr/local/include/SFML/Audio/SoundFileFactory.hpp /usr/local/include/SFML/Audio/SoundFileFactory.inl /usr/local/include/SFML/Audio/SoundFileReader.hpp /usr/local/include/SFML/Audio/SoundFileWriter.hpp /usr/local/include/SFML/Graphics.hpp /usr/local/include/SFML/Window.hpp /usr/local/include/SFML/Window/Clipboard.hpp /usr/local/include/SFML/Window/Export.hpp /usr/local/include/SFML/Window/Context.hpp /usr/local/include/SFML/Window/GlResource.hpp /usr/local/include/SFML/Window/ContextSettings.hpp /usr/local/include/SFML/Window/Cursor.hpp /usr/local/include/SFML/Window/Event.hpp /usr/local/include/SFML/Window/Joystick.hpp /usr/local/include/SFML/Window/Keyboard.hpp /usr/local/include/SFML/Window/Mouse.hpp /usr/local/include/SFML/Window/Sensor.hpp /usr/local/include/SFML/Window/Touch.hpp /usr/local/include/SFML/Window/VideoMode.hpp /usr/local/include/SFML/Window/Window.hpp /usr/local/include/SFML/Window/WindowHandle.hpp /usr/local/include/SFML/Window/WindowStyle.hpp /usr/local/include/SFML/Graphics/BlendMode.hpp /usr/local/include/SFML/Graphics/Export.hpp /usr/local/include/SFML/Graphics/CircleShape.hpp /usr/local/include/SFML/Graphics/Shape.hpp /usr/local/include/SFML/Graphics/Drawable.hpp /usr/local/include/SFML/Graphics/RenderStates.hpp /usr/local/include/SFML/Graphics/Transform.hpp /usr/local/include/SFML/Graphics/Rect.hpp /usr/local/include/SFML/Graphics/Rect.inl /usr/local/include/SFML/Graphics/Transformable.hpp /usr/local/include/SFML/Graphics/VertexArray.hpp /usr/local/include/SFML/Graphics/Vertex.hpp /usr/local/include/SFML/Graphics/Color.hpp /usr/local/include/SFML/Graphics/PrimitiveType.hpp /usr/local/include/SFML/Graphics/ConvexShape.hpp /usr/local/include/SFML/Graphics/Font.hpp /usr/local/include/SFML/Graphics/Glyph.hpp /usr/local/include/SFML/Graphics/Texture.hpp /usr/local/include/SFML/Graphics/Image.hpp /usr/local/include/SFML/Graphics/RectangleShape.hpp /usr/local/include/SFML/Graphics/RenderTarget.hpp /usr/local/include/SFML/Graphics/View.hpp /usr/local/include/SFML/Graphics/RenderTexture.hpp /usr/local/include/SFML/Graphics/RenderWindow.hpp /usr/local/include/SFML/Graphics/Shader.hpp /usr/local/include/SFML/Graphics/Glsl.hpp /usr/local/include/SFML/Graphics/Glsl.inl /usr/local/include/SFML/Graphics/Sprite.hpp /usr/local/include/SFML/Graphics/Text.hpp /usr/local/include/SFML/Graphics/VertexBuffer.hpp /usr/local/include/SFML/Network.hpp /usr/local/include/SFML/Network/Ftp.hpp /usr/local/include/SFML/Network/Export.hpp /usr/local/include/SFML/Network/TcpSocket.hpp /usr/local/include/SFML/Network/Socket.hpp /usr/local/include/SFML/Network/SocketHandle.hpp /usr/local/include/SFML/Network/Http.hpp /usr/local/include/SFML/Network/IpAddress.hpp /usr/local/include/SFML/Network/Packet.hpp /usr/local/include/SFML/Network/SocketSelector.hpp /usr/local/include/SFML/Network/TcpListener.hpp /usr/local/include/SFML/Network/UdpSocket.hpp src/Utility/FileSystem.hpp src/Utility/Types.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bin/Release/dep/Platform/MacOS/MacOSPlatform.cpp.d:
+#  Precious file (prerequisite of .PRECIOUS).
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `Platform/MacOS/MacOSPlatform.cpp'
+#  Last modified 2021-12-14 14:59:46
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 468):
+	
+
+/usr/local/include/SFML/Graphics/Glyph.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/Platform/MacOS/MacOSPlatform.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/Users/katy.garnier/Documents/cpp_projects/sfml-vscode-boilerplate/src/Utility/FileSystem.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Graphics.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Graphics/Glsl.inl:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/System/Vector2.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/Users/katy.garnier/Documents/cpp_projects/sfml-vscode-boilerplate/src/PCH.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bin/Release/obj/Platform/Win32:
+#  Implicit rule search has not been done.
+#  Last modified 2021-12-14 14:59:45
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `Makefile', line 357):
+	$(if $(_CLEAN),,@printf '\$(color_blue)')
+	$(MKDIR) $@
+	
+
+/usr/local/include/SFML/Network/Http.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Network/Ftp.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Network/TcpSocket.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/System/String.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Network/Socket.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+ 
+/usr/local/include/SFML/System/NonCopyable.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+env/.all.mk:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2021-12-13 20:17:24
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/Platform/Platform.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Graphics/Image.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Graphics/Glsl.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bin/Release/obj/Platform/Win32/WindowsPlatform.cpp.o: /Users/katy.garnier/Documents/cpp_projects/sfml-vscode-boilerplate/src/Utility/Types.hpp /Users/katy.garnier/Documents/cpp_projects/sfml-vscode-boilerplate/src/Utility/FileSystem.hpp /usr/local/include/SFML/Network/UdpSocket.hpp /usr/local/include/SFML/Network/TcpListener.hpp /usr/local/include/SFML/Network/SocketSelector.hpp /usr/local/include/SFML/Network/Packet.hpp /usr/local/include/SFML/Network/IpAddress.hpp /usr/local/include/SFML/Network/Http.hpp /usr/local/include/SFML/Network/SocketHandle.hpp /usr/local/include/SFML/Network/Socket.hpp /usr/local/include/SFML/Network/TcpSocket.hpp /usr/local/include/SFML/Network/Export.hpp /usr/local/include/SFML/Network/Ftp.hpp /usr/local/include/SFML/Network.hpp /usr/local/include/SFML/Graphics/VertexBuffer.hpp /usr/local/include/SFML/Graphics/Text.hpp /usr/local/include/SFML/Graphics/Sprite.hpp /usr/local/include/SFML/Graphics/Glsl.inl /usr/local/include/SFML/Graphics/Glsl.hpp /usr/local/include/SFML/Graphics/Shader.hpp /usr/local/include/SFML/Graphics/RenderWindow.hpp /usr/local/include/SFML/Graphics/RenderTexture.hpp /usr/local/include/SFML/Graphics/View.hpp /usr/local/include/SFML/Graphics/RenderTarget.hpp /usr/local/include/SFML/Graphics/RectangleShape.hpp /usr/local/include/SFML/Graphics/Image.hpp /usr/local/include/SFML/Graphics/Texture.hpp /usr/local/include/SFML/Graphics/Glyph.hpp /usr/local/include/SFML/Graphics/Font.hpp /usr/local/include/SFML/Graphics/ConvexShape.hpp /usr/local/include/SFML/Graphics/PrimitiveType.hpp /usr/local/include/SFML/Graphics/Color.hpp /usr/local/include/SFML/Graphics/Vertex.hpp /usr/local/include/SFML/Graphics/VertexArray.hpp /usr/local/include/SFML/Graphics/Transformable.hpp /usr/local/include/SFML/Graphics/Rect.inl /usr/local/include/SFML/Graphics/Rect.hpp /usr/local/include/SFML/Graphics/Transform.hpp /usr/local/include/SFML/Graphics/RenderStates.hpp /usr/local/include/SFML/Graphics/Drawable.hpp /usr/local/include/SFML/Graphics/Shape.hpp /usr/local/include/SFML/Graphics/CircleShape.hpp /usr/local/include/SFML/Graphics/Export.hpp /usr/local/include/SFML/Graphics/BlendMode.hpp /usr/local/include/SFML/Window/WindowStyle.hpp /usr/local/include/SFML/Window/WindowHandle.hpp /usr/local/include/SFML/Window/Window.hpp /usr/local/include/SFML/Window/VideoMode.hpp /usr/local/include/SFML/Window/Touch.hpp /usr/local/include/SFML/Window/Sensor.hpp /usr/local/include/SFML/Window/Mouse.hpp /usr/local/include/SFML/Window/Keyboard.hpp /usr/local/include/SFML/Window/Joystick.hpp /usr/local/include/SFML/Window/Event.hpp /usr/local/include/SFML/Window/Cursor.hpp /usr/local/include/SFML/Window/ContextSettings.hpp /usr/local/include/SFML/Window/GlResource.hpp /usr/local/include/SFML/Window/Context.hpp /usr/local/include/SFML/Window/Export.hpp /usr/local/include/SFML/Window/Clipboard.hpp /usr/local/include/SFML/Window.hpp /usr/local/include/SFML/Graphics.hpp /usr/local/include/SFML/Audio/SoundFileWriter.hpp /usr/local/include/SFML/Audio/SoundFileReader.hpp /usr/local/include/SFML/Audio/SoundFileFactory.inl /usr/local/include/SFML/Audio/SoundFileFactory.hpp /usr/local/include/SFML/Audio/SoundRecorder.hpp /usr/local/include/SFML/Audio/SoundBufferRecorder.hpp /usr/local/include/SFML/Audio/SoundBuffer.hpp /usr/local/include/SFML/Audio/Sound.hpp /usr/local/include/SFML/Audio/OutputSoundFile.hpp /usr/local/include/SFML/Audio/AlResource.hpp /usr/local/include/SFML/Audio/SoundSource.hpp /usr/local/include/SFML/Audio/SoundStream.hpp /usr/local/include/SFML/Audio/Music.hpp /usr/local/include/SFML/Audio/Listener.hpp /usr/local/include/SFML/Audio/Export.hpp /usr/local/include/SFML/Audio/InputSoundFile.hpp /usr/local/include/SFML/System/Vector3.inl /usr/local/include/SFML/System/Vector3.hpp /usr/local/include/SFML/System/Vector2.inl /usr/local/include/SFML/System/Vector2.hpp /usr/local/include/SFML/System/ThreadLocalPtr.inl /usr/local/include/SFML/System/ThreadLocalPtr.hpp /usr/local/include/SFML/System/ThreadLocal.hpp /usr/local/include/SFML/System/Thread.inl /usr/local/include/SFML/System/Thread.hpp /usr/local/include/SFML/System/String.inl /usr/local/include/SFML/System/Utf.inl /usr/local/include/SFML/System/Utf.hpp /usr/local/include/SFML/System/String.hpp /usr/local/include/SFML/System/Sleep.hpp /usr/local/include/SFML/System/Mutex.hpp /usr/local/include/SFML/System/MemoryInputStream.hpp /usr/local/include/SFML/System/Lock.hpp /usr/local/include/SFML/System/NonCopyable.hpp /usr/local/include/SFML/System/InputStream.hpp /usr/local/include/SFML/System/FileInputStream.hpp /usr/local/include/SFML/System/Err.hpp /usr/local/include/SFML/System/Time.hpp /usr/local/include/SFML/System/Export.hpp /usr/local/include/SFML/System/Clock.hpp /usr/local/include/SFML/Config.hpp /usr/local/include/SFML/System.hpp /usr/local/include/SFML/Audio.hpp /Users/katy.garnier/Documents/cpp_projects/sfml-vscode-boilerplate/src/PCH.hpp src/Platform/Win32/WindowsPlatform.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Graphics/Rect.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 262):
+	@$(MAKE) makepch
+	@$(MAKE) -j$(MAX_PARALLEL_JOBS) makebuild
+	
+
+bin:
+#  Implicit rule search has not been done.
+#  Last modified 2021-12-14 14:59:36
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `Makefile', line 357):
+	$(if $(_CLEAN),,@printf '\$(color_blue)')
+	$(MKDIR) $@
+	
+
+# Not a target:
+.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Window/Event.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/System/Mutex.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.PHONY: rebuild buildprod makepch makebuild clean rmprod mkdirprod releasetoprod makeproduction
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Graphics/RenderStates.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Graphics/Texture.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Audio/SoundSource.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Graphics/BlendMode.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Graphics/Export.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/Platform/MacOS/MacOSPlatform.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bin/Release/obj/Platform/MacOS:
+ 
+#  Implicit rule search has not been done.
+#  Last modified 2021-12-14 14:59:46
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `Makefile', line 357):
+	$(if $(_CLEAN),,@printf '\$(color_blue)')
+	$(MKDIR) $@
+	
+
+bin/Release/obj/Platform/Unix/LinuxPlatform.cpp.o: /Users/katy.garnier/Documents/cpp_projects/sfml-vscode-boilerplate/src/Utility/Types.hpp /Users/katy.garnier/Documents/cpp_projects/sfml-vscode-boilerplate/src/Utility/FileSystem.hpp /usr/local/include/SFML/Network/UdpSocket.hpp /usr/local/include/SFML/Network/TcpListener.hpp /usr/local/include/SFML/Network/SocketSelector.hpp /usr/local/include/SFML/Network/Packet.hpp /usr/local/include/SFML/Network/IpAddress.hpp /usr/local/include/SFML/Network/Http.hpp /usr/local/include/SFML/Network/SocketHandle.hpp /usr/local/include/SFML/Network/Socket.hpp /usr/local/include/SFML/Network/TcpSocket.hpp /usr/local/include/SFML/Network/Export.hpp /usr/local/include/SFML/Network/Ftp.hpp /usr/local/include/SFML/Network.hpp /usr/local/include/SFML/Graphics/VertexBuffer.hpp /usr/local/include/SFML/Graphics/Text.hpp /usr/local/include/SFML/Graphics/Sprite.hpp /usr/local/include/SFML/Graphics/Glsl.inl /usr/local/include/SFML/Graphics/Glsl.hpp /usr/local/include/SFML/Graphics/Shader.hpp /usr/local/include/SFML/Graphics/RenderWindow.hpp /usr/local/include/SFML/Graphics/RenderTexture.hpp /usr/local/include/SFML/Graphics/View.hpp /usr/local/include/SFML/Graphics/RenderTarget.hpp /usr/local/include/SFML/Graphics/RectangleShape.hpp /usr/local/include/SFML/Graphics/Image.hpp /usr/local/include/SFML/Graphics/Texture.hpp /usr/local/include/SFML/Graphics/Glyph.hpp /usr/local/include/SFML/Graphics/Font.hpp /usr/local/include/SFML/Graphics/ConvexShape.hpp /usr/local/include/SFML/Graphics/PrimitiveType.hpp /usr/local/include/SFML/Graphics/Color.hpp /usr/local/include/SFML/Graphics/Vertex.hpp /usr/local/include/SFML/Graphics/VertexArray.hpp /usr/local/include/SFML/Graphics/Transformable.hpp /usr/local/include/SFML/Graphics/Rect.inl /usr/local/include/SFML/Graphics/Rect.hpp /usr/local/include/SFML/Graphics/Transform.hpp /usr/local/include/SFML/Graphics/RenderStates.hpp /usr/local/include/SFML/Graphics/Drawable.hpp /usr/local/include/SFML/Graphics/Shape.hpp /usr/local/include/SFML/Graphics/CircleShape.hpp /usr/local/include/SFML/Graphics/Export.hpp /usr/local/include/SFML/Graphics/BlendMode.hpp /usr/local/include/SFML/Window/WindowStyle.hpp /usr/local/include/SFML/Window/WindowHandle.hpp /usr/local/include/SFML/Window/Window.hpp /usr/local/include/SFML/Window/VideoMode.hpp /usr/local/include/SFML/Window/Touch.hpp /usr/local/include/SFML/Window/Sensor.hpp /usr/local/include/SFML/Window/Mouse.hpp /usr/local/include/SFML/Window/Keyboard.hpp /usr/local/include/SFML/Window/Joystick.hpp /usr/local/include/SFML/Window/Event.hpp /usr/local/include/SFML/Window/Cursor.hpp /usr/local/include/SFML/Window/ContextSettings.hpp /usr/local/include/SFML/Window/GlResource.hpp /usr/local/include/SFML/Window/Context.hpp /usr/local/include/SFML/Window/Export.hpp /usr/local/include/SFML/Window/Clipboard.hpp /usr/local/include/SFML/Window.hpp /usr/local/include/SFML/Graphics.hpp /usr/local/include/SFML/Audio/SoundFileWriter.hpp /usr/local/include/SFML/Audio/SoundFileReader.hpp /usr/local/include/SFML/Audio/SoundFileFactory.inl /usr/local/include/SFML/Audio/SoundFileFactory.hpp /usr/local/include/SFML/Audio/SoundRecorder.hpp /usr/local/include/SFML/Audio/SoundBufferRecorder.hpp /usr/local/include/SFML/Audio/SoundBuffer.hpp /usr/local/include/SFML/Audio/Sound.hpp /usr/local/include/SFML/Audio/OutputSoundFile.hpp /usr/local/include/SFML/Audio/AlResource.hpp /usr/local/include/SFML/Audio/SoundSource.hpp /usr/local/include/SFML/Audio/SoundStream.hpp /usr/local/include/SFML/Audio/Music.hpp /usr/local/include/SFML/Audio/Listener.hpp /usr/local/include/SFML/Audio/Export.hpp /usr/local/include/SFML/Audio/InputSoundFile.hpp /usr/local/include/SFML/System/Vector3.inl /usr/local/include/SFML/System/Vector3.hpp /usr/local/include/SFML/System/Vector2.inl /usr/local/include/SFML/System/Vector2.hpp /usr/local/include/SFML/System/ThreadLocalPtr.inl /usr/local/include/SFML/System/ThreadLocalPtr.hpp /usr/local/include/SFML/System/ThreadLocal.hpp /usr/local/include/SFML/System/Thread.inl /usr/local/include/SFML/System/Thread.hpp /usr/local/include/SFML/System/String.inl /usr/local/include/SFML/System/Utf.inl /usr/local/include/SFML/System/Utf.hpp /usr/local/include/SFML/System/String.hpp /usr/local/include/SFML/System/Sleep.hpp /usr/local/include/SFML/System/Mutex.hpp /usr/local/include/SFML/System/MemoryInputStream.hpp /usr/local/include/SFML/System/Lock.hpp /usr/local/include/SFML/System/NonCopyable.hpp /usr/local/include/SFML/System/InputStream.hpp /usr/local/include/SFML/System/FileInputStream.hpp /usr/local/include/SFML/System/Err.hpp /usr/local/include/SFML/System/Time.hpp /usr/local/include/SFML/System/Export.hpp /usr/local/include/SFML/System/Clock.hpp /usr/local/include/SFML/Config.hpp /usr/local/include/SFML/System.hpp /usr/local/include/SFML/Audio.hpp /Users/katy.garnier/Documents/cpp_projects/sfml-vscode-boilerplate/src/PCH.hpp src/Platform/Unix/LinuxPlatform.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Graphics/Sprite.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.PRECIOUS: bin/Release/dep/%.d
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Window/Sensor.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Graphics/RenderTexture.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/Utility/Types.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bin/Release/dep/Utility:
+#  Implicit rule search has not been done.
+#  Last modified 2021-12-14 14:59:36
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `Makefile', line 357):
+	$(if $(_CLEAN),,@printf '\$(color_blue)')
+	$(MKDIR) $@
+	
+
+/usr/local/include/SFML/System/Sleep.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/Users/katy.garnier/Documents/cpp_projects/sfml-vscode-boilerplate/src/Utility/Types.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/System.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bin/Release/dep/Platform:
+#  Implicit rule search has not been done.
+#  Last modified 2021-12-14 14:59:36
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `Makefile', line 357):
+	$(if $(_CLEAN),,@printf '\$(color_blue)')
+	$(MKDIR) $@
+	
+
+/usr/local/include/SFML/Window/ContextSettings.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bin/Release/obj:
+#  Implicit rule search has not been done.
+#  Last modified 2021-12-15 05:32:51
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `Makefile', line 357):
+	$(if $(_CLEAN),,@printf '\$(color_blue)')
+	$(MKDIR) $@
+	
+
+/usr/local/include/SFML/Window/Clipboard.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/System/Utf.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/System/Export.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bin/Release/game: bin/Release/obj/PCH.hpp.gch bin/Release/obj/Platform/MacOS/MacOSPlatform.cpp.o bin/Release/obj/Platform/Unix/LinuxPlatform.cpp.o bin/Release/obj/Platform/Win32/WindowsPlatform.cpp.o bin/Release/obj/Main.cpp.o
+ 
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 351):
+	$(call linking_with,$@)
+	$(_Q)$(CC) $(_LIB_DIRS) $(_SYMBOLS) -o $@ $(ORIGIN_FLAG) $(OBJS) $(_LINK_LIBRARIES) $(BUILD_FLAGS)
+	@printf '\n'
+	$(call build_deps)
+	
+
+/usr/local/include/SFML/Graphics/RenderTarget.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.SUFFIXES: .c .cpp .h .hpp .rc .res .inl .o .d .asm
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Audio/SoundFileFactory.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Audio/SoundFileReader.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2021-12-13 20:17:24
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/local/include/SFML/Network/SocketHandle.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+makebuild: bin/Release/game.exe
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 298):
+	@printf '   $(color_blue)Target is up to date.\n'
+	
+
+src/Main.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+rebuild: clean all
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+/usr/local/include/SFML/System/Vector2.inl:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bin/Release/dep/Platform/Win32/WindowsPlatform.cpp.d:
+#  Precious file (prerequisite of .PRECIOUS).
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `Platform/Win32/WindowsPlatform.cpp'
+#  Last modified 2021-12-14 14:59:45
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 468):
+	
+
+/usr/local/include/SFML/Config.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/Platform/Win32/WindowsPlatform.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/System/Time.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+env/linux.release.mk:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.rc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/System/String.inl:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Graphics/RenderWindow.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Graphics/VertexArray.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Graphics/Drawable.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Audio/OutputSoundFile.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/System/Err.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Graphics/Shader.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+rmprod:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 369):
+	@printf '\n'
+	-$(_Q)rm -rf "$(if $(filter osx,$(PLATFORM)),$(PRODUCTION_FOLDER_MACOS),$(PRODUCTION_FOLDER))"
+	-$(_Q)rm -rf ~/.local/share/applications/$(NAME).desktop
+	
+
+bin/Release/game.dylib: bin/Release/obj/PCH.hpp.gch bin/Release/obj/Platform/MacOS/MacOSPlatform.cpp.o bin/Release/obj/Platform/Unix/LinuxPlatform.cpp.o bin/Release/obj/Platform/Win32/WindowsPlatform.cpp.o bin/Release/obj/Main.cpp.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 340):
+	$(call linking_with,$(BLD_DIR)/$(_BASENAME).dylib)
+	$(_Q)$(CC) -dynamiclib -undefined suppress -flat_namespace $(_LIB_DIRS) $(OBJS) -o $@ $(_SYMBOLS) $(_LINK_LIBRARIES) $(BUILD_FLAGS)
+	@printf '\n'
+	
+
+/usr/local/include/SFML/System/MemoryInputStream.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+makepch: bin/Release/obj/PCH.hpp.gch
+#  Phony target (prerequisite of .PHONY).
+#  Command-line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/18=0%
+#  commands to execute (from `Makefile', line 293):
+	@printf ''
+	
+
+/usr/local/include/SFML/Graphics/Rect.inl:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bin/Release/obj/Platform/Unix:
+#  Implicit rule search has not been done.
+#  Last modified 2021-12-14 14:59:45
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `Makefile', line 357):
+	$(if $(_CLEAN),,@printf '\$(color_blue)')
+	$(MKDIR) $@
+	
+
+bin/Release/dep/Platform/Unix/LinuxPlatform.cpp.d:
+#  Precious file (prerequisite of .PRECIOUS).
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `Platform/Unix/LinuxPlatform.cpp'
+#  Last modified 2021-12-14 14:59:45
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 468):
+	
+
+src/Platform/Unix/LinuxPlatform.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/System/Clock.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+ 
+bin/Release/obj/Main.cpp.o: /Users/katy.garnier/Documents/cpp_projects/sfml-vscode-boilerplate/src/Utility/Types.hpp /Users/katy.garnier/Documents/cpp_projects/sfml-vscode-boilerplate/src/Utility/FileSystem.hpp /usr/local/include/SFML/Network/UdpSocket.hpp /usr/local/include/SFML/Network/TcpListener.hpp /usr/local/include/SFML/Network/SocketSelector.hpp /usr/local/include/SFML/Network/Packet.hpp /usr/local/include/SFML/Network/IpAddress.hpp /usr/local/include/SFML/Network/Http.hpp /usr/local/include/SFML/Network/SocketHandle.hpp /usr/local/include/SFML/Network/Socket.hpp /usr/local/include/SFML/Network/TcpSocket.hpp /usr/local/include/SFML/Network/Export.hpp /usr/local/include/SFML/Network/Ftp.hpp /usr/local/include/SFML/Network.hpp /usr/local/include/SFML/Graphics/VertexBuffer.hpp /usr/local/include/SFML/Graphics/Text.hpp /usr/local/include/SFML/Graphics/Sprite.hpp /usr/local/include/SFML/Graphics/Glsl.inl /usr/local/include/SFML/Graphics/Glsl.hpp /usr/local/include/SFML/Graphics/Shader.hpp /usr/local/include/SFML/Graphics/RenderWindow.hpp /usr/local/include/SFML/Graphics/RenderTexture.hpp /usr/local/include/SFML/Graphics/View.hpp /usr/local/include/SFML/Graphics/RenderTarget.hpp /usr/local/include/SFML/Graphics/RectangleShape.hpp /usr/local/include/SFML/Graphics/Image.hpp /usr/local/include/SFML/Graphics/Texture.hpp /usr/local/include/SFML/Graphics/Glyph.hpp /usr/local/include/SFML/Graphics/Font.hpp /usr/local/include/SFML/Graphics/ConvexShape.hpp /usr/local/include/SFML/Graphics/PrimitiveType.hpp /usr/local/include/SFML/Graphics/Color.hpp /usr/local/include/SFML/Graphics/Vertex.hpp /usr/local/include/SFML/Graphics/VertexArray.hpp /usr/local/include/SFML/Graphics/Transformable.hpp /usr/local/include/SFML/Graphics/Rect.inl /usr/local/include/SFML/Graphics/Rect.hpp /usr/local/include/SFML/Graphics/Transform.hpp /usr/local/include/SFML/Graphics/RenderStates.hpp /usr/local/include/SFML/Graphics/Drawable.hpp /usr/local/include/SFML/Graphics/Shape.hpp /usr/local/include/SFML/Graphics/CircleShape.hpp /usr/local/include/SFML/Graphics/Export.hpp /usr/local/include/SFML/Graphics/BlendMode.hpp /usr/local/include/SFML/Window/WindowStyle.hpp /usr/local/include/SFML/Window/WindowHandle.hpp /usr/local/include/SFML/Window/Window.hpp /usr/local/include/SFML/Window/VideoMode.hpp /usr/local/include/SFML/Window/Touch.hpp /usr/local/include/SFML/Window/Sensor.hpp /usr/local/include/SFML/Window/Mouse.hpp /usr/local/include/SFML/Window/Keyboard.hpp /usr/local/include/SFML/Window/Joystick.hpp /usr/local/include/SFML/Window/Event.hpp /usr/local/include/SFML/Window/Cursor.hpp /usr/local/include/SFML/Window/ContextSettings.hpp /usr/local/include/SFML/Window/GlResource.hpp /usr/local/include/SFML/Window/Context.hpp /usr/local/include/SFML/Window/Export.hpp /usr/local/include/SFML/Window/Clipboard.hpp /usr/local/include/SFML/Window.hpp /usr/local/include/SFML/Graphics.hpp /usr/local/include/SFML/Audio/SoundFileWriter.hpp /usr/local/include/SFML/Audio/SoundFileReader.hpp /usr/local/include/SFML/Audio/SoundFileFactory.inl /usr/local/include/SFML/Audio/SoundFileFactory.hpp /usr/local/include/SFML/Audio/SoundRecorder.hpp /usr/local/include/SFML/Audio/SoundBufferRecorder.hpp /usr/local/include/SFML/Audio/SoundBuffer.hpp /usr/local/include/SFML/Audio/Sound.hpp /usr/local/include/SFML/Audio/OutputSoundFile.hpp /usr/local/include/SFML/Audio/AlResource.hpp /usr/local/include/SFML/Audio/SoundSource.hpp /usr/local/include/SFML/Audio/SoundStream.hpp /usr/local/include/SFML/Audio/Music.hpp /usr/local/include/SFML/Audio/Listener.hpp /usr/local/include/SFML/Audio/Export.hpp /usr/local/include/SFML/Audio/InputSoundFile.hpp /usr/local/include/SFML/System/Vector3.inl /usr/local/include/SFML/System/Vector3.hpp /usr/local/include/SFML/System/Vector2.inl /usr/local/include/SFML/System/Vector2.hpp /usr/local/include/SFML/System/ThreadLocalPtr.inl /usr/local/include/SFML/System/ThreadLocalPtr.hpp /usr/local/include/SFML/System/ThreadLocal.hpp /usr/local/include/SFML/System/Thread.inl /usr/local/include/SFML/System/Thread.hpp /usr/local/include/SFML/System/String.inl /usr/local/include/SFML/System/Utf.inl /usr/local/include/SFML/System/Utf.hpp /usr/local/include/SFML/System/String.hpp /usr/local/include/SFML/System/Sleep.hpp /usr/local/include/SFML/System/Mutex.hpp /usr/local/include/SFML/System/MemoryInputStream.hpp /usr/local/include/SFML/System/Lock.hpp /usr/local/include/SFML/System/NonCopyable.hpp /usr/local/include/SFML/System/InputStream.hpp /usr/local/include/SFML/System/FileInputStream.hpp /usr/local/include/SFML/System/Err.hpp /usr/local/include/SFML/System/Time.hpp /usr/local/include/SFML/System/Export.hpp /usr/local/include/SFML/System/Clock.hpp /usr/local/include/SFML/Config.hpp /usr/local/include/SFML/System.hpp /usr/local/include/SFML/Audio.hpp /Users/katy.garnier/Documents/cpp_projects/sfml-vscode-boilerplate/src/PCH.hpp src/Main.cpp src/Platform/Platform.hpp src/Platform/MacOS/MacOSPlatform.hpp src/Platform/IPlatform.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/System/ThreadLocalPtr.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+releasetoprod: bin/Release/game.exe
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 409):
+	$(_Q)cp $(TARGET) "$(PRODUCTION_FOLDER)"
+	$(_Q)cp "env/linux/$(PRODUCTION_LINUX_ICON).png" "$(PRODUCTION_FOLDER)/$(PRODUCTION_LINUX_ICON).png"
+	$(_Q)cp "env/linux/exec.desktop" "$(PRODUCTION_FOLDER)/$(NAME).desktop"
+	$(_Q)sed -i 's/^Exec=.*/Exec=$(_LINUX_GREP_CWD)\/$(PRODUCTION_FOLDER)\/$(NAME)/' "$(PRODUCTION_FOLDER)/$(NAME).desktop"
+	$(_Q)sed -i 's/^Path=.*/Path=$(_LINUX_GREP_CWD)\/$(PRODUCTION_FOLDER)/' "$(PRODUCTION_FOLDER)/$(NAME).desktop"
+	$(_Q)sed -i 's/^Name=.*/Name=$(PRODUCTION_LINUX_APP_NAME)/' "$(PRODUCTION_FOLDER)/$(NAME).desktop"
+	$(_Q)sed -i 's/^Comment=.*/Comment=$(PRODUCTION_LINUX_APP_COMMENT)/' "$(PRODUCTION_FOLDER)/$(NAME).desktop"
+	$(_Q)sed -i 's/^Icon=.*/Icon=$(_LINUX_GREP_CWD)\/$(PRODUCTION_FOLDER)\/$(PRODUCTION_LINUX_ICON).png/' "$(PRODUCTION_FOLDER)/$(NAME).desktop"
+	$(_Q)chmod +x "$(PRODUCTION_FOLDER)/$(NAME)"
+	$(_Q)chmod +x "$(PRODUCTION_FOLDER)/$(NAME).desktop"
+	@printf '   Applications directory does not exist, not copying desktop file.\n'
+	
+
+/usr/local/include/SFML/System/ThreadLocal.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Audio/Sound.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+mkdirprod:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 377):
+	$(MKDIR) "$(PRODUCTION_FOLDER)"
+	
+
+/usr/local/include/SFML/Network/TcpListener.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/System/Vector3.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Window/GlResource.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Window/VideoMode.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Window/WindowStyle.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Graphics/VertexBuffer.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Graphics/Text.hpp:
+#  Implicit rule search has not been done.
+ 
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/System/Lock.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+makeproduction: rmprod mkdirprod releasetoprod
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 432):
+	@printf '   $(color_blue)Adding dynamic libraries & project dependencies...\n'
+	$(foreach dep,$(PRODUCTION_DEPENDENCIES),$(call copy_to,$(dep),$(PRODUCTION_FOLDER_RESOURCES)))
+	$(foreach excl,$(PRODUCTION_EXCLUDE),$(shell find "$(PRODUCTION_FOLDER_RESOURCES)" -name '$(excl)' -delete))
+	
+
+/usr/local/include/SFML/System/Utf.inl:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/System/InputStream.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Audio/Music.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Audio/SoundFileFactory.inl:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Audio/InputSoundFile.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bin/Release/dep/Platform/Win32:
+#  Implicit rule search has not been done.
+#  Last modified 2021-12-14 14:59:45
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `Makefile', line 357):
+	$(if $(_CLEAN),,@printf '\$(color_blue)')
+	$(MKDIR) $@
+	
+
+# Not a target:
+src/PCH.hpp:
+#  Implicit rule search has been done.
+#  Last modified 2021-12-13 20:17:24
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.inl:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/Platform/IPlatform.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/System/Thread.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+buildprod: all makeproduction
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+bin/Release/game.so: bin/Release/obj/PCH.hpp.gch bin/Release/obj/Platform/MacOS/MacOSPlatform.cpp.o bin/Release/obj/Platform/Unix/LinuxPlatform.cpp.o bin/Release/obj/Platform/Win32/WindowsPlatform.cpp.o bin/Release/obj/Main.cpp.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 335):
+	$(call linking_with,$@)
+	$(_Q)$(CC) -shared $(_LIB_DIRS) $(OBJS) -o $@ $(_SYMBOLS) $(_LINK_LIBRARIES) $(BUILD_FLAGS)
+	@printf '\n'
+	
+
+/usr/local/include/SFML/Audio/SoundBuffer.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bin/Release/obj/PCH.hpp.gch: src/PCH.hpp | bin/Release/dep/PCH.d bin bin/Release bin/Release/dep bin/Release/dep/Platform bin/Release/dep/Platform/MacOS bin/Release/dep/Platform/Unix bin/Release/dep/Platform/Win32 bin/Release/dep/Utility bin/Release/obj bin/Release/obj/Platform bin/Release/obj/Platform/MacOS bin/Release/obj/Platform/Unix bin/Release/obj/Platform/Win32 bin/Release/obj/Utility
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `PCH'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := bin/Release/obj/PCH.hpp.gch
+# automatic
+# % := 
+# automatic
+# * := PCH
+# automatic
+# + := src/PCH.hpp
+# automatic
+# | := bin/Release/dep/PCH.d bin bin/Release bin/Release/dep bin/Release/dep/Platform bin/Release/dep/Platform/MacOS bin/Release/dep/Platform/Unix bin/Release/dep/Platform/Win32 bin/Release/dep/Utility bin/Release/obj bin/Release/obj/Platform bin/Release/obj/Platform/MacOS bin/Release/obj/Platform/Unix bin/Release/obj/Platform/Win32 bin/Release/obj/Utility
+# automatic
+# < := src/PCH.hpp
+# automatic
+# ^ := src/PCH.hpp
+# automatic
+# ? := src/PCH.hpp
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=12/34=35%
+#  commands to execute (from `Makefile', line 313):
+	$(call compile_with,@,<,$(PCH_COMPILE),$(POST_COMPILE))
+	
+
+# Not a target:
+.res:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+env/.release.mk:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2021-12-13 20:17:24
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+bin/Release/obj/Utility:
+#  Implicit rule search has not been done.
+#  Last modified 2021-12-14 14:59:36
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `Makefile', line 357):
+	$(if $(_CLEAN),,@printf '\$(color_blue)')
+	$(MKDIR) $@
+	
+
+bin/Release/dep/Main.cpp.d:
+#  Precious file (prerequisite of .PRECIOUS).
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `Main.cpp'
+#  Last modified 2021-12-15 05:32:51
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 468):
+	
+
+/usr/local/include/SFML/Network/UdpSocket.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bin/Release/obj/Platform:
+#  Implicit rule search has not been done.
+#  Last modified 2021-12-14 14:59:36
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `Makefile', line 357):
+	$(if $(_CLEAN),,@printf '\$(color_blue)')
+	$(MKDIR) $@
+	
+
+/usr/local/include/SFML/Window/Keyboard.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Graphics/Font.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 361):
+	$(if $(_CLEAN),@printf '   $(color_blue)Cleaning old build files & folders...\n\n',@printf '$(color_blue)')
+	$(_Q)$(RM) $(TARGET) $(DEPS) $(OBJS)
+	
+
+/usr/local/include/SFML/Audio/AlResource.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Graphics/ConvexShape.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bin/Release/game.exe: bin/Release/obj/PCH.hpp.gch bin/Release/obj/Platform/MacOS/MacOSPlatform.cpp.o bin/Release/obj/Platform/Unix/LinuxPlatform.cpp.o bin/Release/obj/Platform/Win32/WindowsPlatform.cpp.o bin/Release/obj/Main.cpp.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 345):
+	$(call linking_with,$@)
+	$(_Q)$(CC) $(_LIB_DIRS) $(_SYMBOLS) -o $@ $(ORIGIN_FLAG) $(OBJS) $(_LINK_LIBRARIES) $(BUILD_FLAGS)
+	@printf '\n'
+	$(call build_deps)
+	
+
+bin/Release/dep/Platform/MacOS:
+#  Implicit rule search has not been done.
+#  Last modified 2021-12-14 14:59:46
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `Makefile', line 357):
+ 
+	$(if $(_CLEAN),,@printf '\$(color_blue)')
+	$(MKDIR) $@
+	
+
+/usr/local/include/SFML/Graphics/Vertex.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Window/Cursor.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Network/SocketSelector.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Audio/SoundFileWriter.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Audio/SoundBufferRecorder.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bin/Release/dep:
+#  Implicit rule search has not been done.
+#  Last modified 2021-12-15 05:32:51
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `Makefile', line 357):
+	$(if $(_CLEAN),,@printf '\$(color_blue)')
+	$(MKDIR) $@
+	
+
+/usr/local/include/SFML/System/Vector3.inl:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Graphics/Transformable.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Audio/SoundStream.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+env/linux.all.mk:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2021-12-13 20:17:24
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/local/include/SFML/Window/Context.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bin/Release:
+#  Implicit rule search has not been done.
+#  Last modified 2021-12-15 05:32:51
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `Makefile', line 357):
+	$(if $(_CLEAN),,@printf '\$(color_blue)')
+	$(MKDIR) $@
+	
+
+bin/Release/obj/Platform/MacOS/MacOSPlatform.cpp.o: /Users/katy.garnier/Documents/cpp_projects/sfml-vscode-boilerplate/src/Utility/Types.hpp /Users/katy.garnier/Documents/cpp_projects/sfml-vscode-boilerplate/src/Utility/FileSystem.hpp /usr/local/include/SFML/Network/UdpSocket.hpp /usr/local/include/SFML/Network/TcpListener.hpp /usr/local/include/SFML/Network/SocketSelector.hpp /usr/local/include/SFML/Network/Packet.hpp /usr/local/include/SFML/Network/IpAddress.hpp /usr/local/include/SFML/Network/Http.hpp /usr/local/include/SFML/Network/SocketHandle.hpp /usr/local/include/SFML/Network/Socket.hpp /usr/local/include/SFML/Network/TcpSocket.hpp /usr/local/include/SFML/Network/Export.hpp /usr/local/include/SFML/Network/Ftp.hpp /usr/local/include/SFML/Network.hpp /usr/local/include/SFML/Graphics/VertexBuffer.hpp /usr/local/include/SFML/Graphics/Text.hpp /usr/local/include/SFML/Graphics/Sprite.hpp /usr/local/include/SFML/Graphics/Glsl.inl /usr/local/include/SFML/Graphics/Glsl.hpp /usr/local/include/SFML/Graphics/Shader.hpp /usr/local/include/SFML/Graphics/RenderWindow.hpp /usr/local/include/SFML/Graphics/RenderTexture.hpp /usr/local/include/SFML/Graphics/View.hpp /usr/local/include/SFML/Graphics/RenderTarget.hpp /usr/local/include/SFML/Graphics/RectangleShape.hpp /usr/local/include/SFML/Graphics/Image.hpp /usr/local/include/SFML/Graphics/Texture.hpp /usr/local/include/SFML/Graphics/Glyph.hpp /usr/local/include/SFML/Graphics/Font.hpp /usr/local/include/SFML/Graphics/ConvexShape.hpp /usr/local/include/SFML/Graphics/PrimitiveType.hpp /usr/local/include/SFML/Graphics/Color.hpp /usr/local/include/SFML/Graphics/Vertex.hpp /usr/local/include/SFML/Graphics/VertexArray.hpp /usr/local/include/SFML/Graphics/Transformable.hpp /usr/local/include/SFML/Graphics/Rect.inl /usr/local/include/SFML/Graphics/Rect.hpp /usr/local/include/SFML/Graphics/Transform.hpp /usr/local/include/SFML/Graphics/RenderStates.hpp /usr/local/include/SFML/Graphics/Drawable.hpp /usr/local/include/SFML/Graphics/Shape.hpp /usr/local/include/SFML/Graphics/CircleShape.hpp /usr/local/include/SFML/Graphics/Export.hpp /usr/local/include/SFML/Graphics/BlendMode.hpp /usr/local/include/SFML/Window/WindowStyle.hpp /usr/local/include/SFML/Window/WindowHandle.hpp /usr/local/include/SFML/Window/Window.hpp /usr/local/include/SFML/Window/VideoMode.hpp /usr/local/include/SFML/Window/Touch.hpp /usr/local/include/SFML/Window/Sensor.hpp /usr/local/include/SFML/Window/Mouse.hpp /usr/local/include/SFML/Window/Keyboard.hpp /usr/local/include/SFML/Window/Joystick.hpp /usr/local/include/SFML/Window/Event.hpp /usr/local/include/SFML/Window/Cursor.hpp /usr/local/include/SFML/Window/ContextSettings.hpp /usr/local/include/SFML/Window/GlResource.hpp /usr/local/include/SFML/Window/Context.hpp /usr/local/include/SFML/Window/Export.hpp /usr/local/include/SFML/Window/Clipboard.hpp /usr/local/include/SFML/Window.hpp /usr/local/include/SFML/Graphics.hpp /usr/local/include/SFML/Audio/SoundFileWriter.hpp /usr/local/include/SFML/Audio/SoundFileReader.hpp /usr/local/include/SFML/Audio/SoundFileFactory.inl /usr/local/include/SFML/Audio/SoundFileFactory.hpp /usr/local/include/SFML/Audio/SoundRecorder.hpp /usr/local/include/SFML/Audio/SoundBufferRecorder.hpp /usr/local/include/SFML/Audio/SoundBuffer.hpp /usr/local/include/SFML/Audio/Sound.hpp /usr/local/include/SFML/Audio/OutputSoundFile.hpp /usr/local/include/SFML/Audio/AlResource.hpp /usr/local/include/SFML/Audio/SoundSource.hpp /usr/local/include/SFML/Audio/SoundStream.hpp /usr/local/include/SFML/Audio/Music.hpp /usr/local/include/SFML/Audio/Listener.hpp /usr/local/include/SFML/Audio/Export.hpp /usr/local/include/SFML/Audio/InputSoundFile.hpp /usr/local/include/SFML/System/Vector3.inl /usr/local/include/SFML/System/Vector3.hpp /usr/local/include/SFML/System/Vector2.inl /usr/local/include/SFML/System/Vector2.hpp /usr/local/include/SFML/System/ThreadLocalPtr.inl /usr/local/include/SFML/System/ThreadLocalPtr.hpp /usr/local/include/SFML/System/ThreadLocal.hpp /usr/local/include/SFML/System/Thread.inl /usr/local/include/SFML/System/Thread.hpp /usr/local/include/SFML/System/String.inl /usr/local/include/SFML/System/Utf.inl /usr/local/include/SFML/System/Utf.hpp /usr/local/include/SFML/System/String.hpp /usr/local/include/SFML/System/Sleep.hpp /usr/local/include/SFML/System/Mutex.hpp /usr/local/include/SFML/System/MemoryInputStream.hpp /usr/local/include/SFML/System/Lock.hpp /usr/local/include/SFML/System/NonCopyable.hpp /usr/local/include/SFML/System/InputStream.hpp /usr/local/include/SFML/System/FileInputStream.hpp /usr/local/include/SFML/System/Err.hpp /usr/local/include/SFML/System/Time.hpp /usr/local/include/SFML/System/Export.hpp /usr/local/include/SFML/System/Clock.hpp /usr/local/include/SFML/Config.hpp /usr/local/include/SFML/System.hpp /usr/local/include/SFML/Audio.hpp /Users/katy.garnier/Documents/cpp_projects/sfml-vscode-boilerplate/src/PCH.hpp src/Platform/MacOS/MacOSPlatform.cpp src/Platform/MacOS/MacOSPlatform.hpp src/Platform/IPlatform.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Graphics/Transform.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Network/Packet.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Graphics/RectangleShape.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Window/Touch.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.d:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+ 
+/usr/local/include/SFML/Graphics/Color.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/System/ThreadLocalPtr.inl:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+bin/Release/dep/%.d:
+#  Precious file (prerequisite of .PRECIOUS).
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/System/FileInputStream.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Graphics/View.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bin/Release/dep/PCH.d:
+#  Precious file (prerequisite of .PRECIOUS).
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `PCH'
+#  Last modified 2021-12-14 14:59:43
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 468):
+	
+
+.DELETE_ON_ERROR: all
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Window/WindowHandle.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/System/Thread.inl:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/Utility/FileSystem.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Window/Window.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Graphics/CircleShape.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Window/Mouse.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Network.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Audio.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Network/IpAddress.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bin/Release/dep/Platform/Unix:
+#  Implicit rule search has not been done.
+#  Last modified 2021-12-14 14:59:45
+#  File has been updated.
+#  Successfully updated.
+#  commands to execute (from `Makefile', line 357):
+	$(if $(_CLEAN),,@printf '\$(color_blue)')
+	$(MKDIR) $@
+	
+
+/usr/local/include/SFML/Window.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Graphics/Shape.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Audio/SoundRecorder.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.asm:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Network/Export.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Audio/Export.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Graphics/PrimitiveType.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Window/Export.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bin/Release/game.dll: bin/Release/obj/PCH.hpp.gch bin/Release/obj/Platform/MacOS/MacOSPlatform.cpp.o bin/Release/obj/Platform/Unix/LinuxPlatform.cpp.o bin/Release/obj/Platform/Win32/WindowsPlatform.cpp.o bin/Release/obj/Main.cpp.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 329):
+	$(call linking_with,$@)
+	-$(_Q)rm -rf $(BLD_DIR)/$(_BASENAME).def $(BLD_DIR)/$(_BASENAME).a
+	$(_Q)$(CC) -shared -Wl,--output-def="$(BLD_DIR)/$(_BASENAME).def" -Wl,--out-implib="$(BLD_DIR)/$(_BASENAME).a" -Wl,--dll $(_LIB_DIRS) $(OBJS) -o $@ $(_SYMBOLS) $(_LINK_LIBRARIES) $(BUILD_FLAGS)
+	@printf '\n'
+	
+
+/usr/local/include/SFML/Audio/Listener.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Window/Joystick.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=177/1024=17%, Rehash=0, Collisions=218/1352=16%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 10
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 3818 / max = 3818 / min = 3818 / avg = 3818
+
+# Finished Make data base on Wed Dec 15 08:11:33 2021
+
+ 
+
+# Make data base, printed on Wed Dec 15 08:11:33 2021
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# makefile (from `Makefile', line 119)
+_LINUX_GREP_CWD := \/Users\/katy.garnier\/Documents\/cpp_projects\/sfml-vscode-boilerplate
+# makefile (from `Makefile', line 177)
+OBJ_SUBDIRS := bin/Release/obj/Platform bin/Release/obj/Platform/MacOS bin/Release/obj/Platform/Unix bin/Release/obj/Platform/Win32 bin/Release/obj/Utility
+# makefile (from `env/linux.all.mk', line 21)
+PRODUCTION_LINUX_APP_NAME := SFML Boilerplate
+# makefile (from `Makefile', line 153)
+BLD_DIR := bin/Release
+# environment
+VSCODE_LOG_NATIVE = false
+# makefile (from `Makefile', line 179)
+DEP_DIR := bin/Release/dep
+# makefile (from `Makefile', line 162)
+TARGET := bin/Release/game.exe
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# makefile (from `Makefile', line 228)
+OBJ_COMPILE_T = $(CC) $(CFLAGS_DEPS_T) $(_BUILD_MACROS) $(_INCLUDE_DIRS) $(_INCLUDE_PCH) $(CFLAGS) -o $@ -c $<
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/katy.garnier/Documents/cpp_projects/sfml-vscode-boilerplate
+# makefile (from `Makefile', line 243)
+UNI_LINK := ⇛
+# makefile (from `Makefile', line 10)
+SHELL := /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# makefile (from `Makefile', line 126)
+PRODUCTION_MACOS_BUNDLE_DISPLAY_NAME = App
+# makefile (from `env/linux.all.mk', line 2)
+CFLAGS := -O2 -std=c++17 -Wall -Werror -Wextra -Wpedantic -Wunreachable-code -Wunused -Wignored-qualifiers -Wcast-align -Wformat-nonliteral -Wformat=2 -Winvalid-pch -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wredundant-decls -Wswitch-default -Wodr -fdiagnostics-color=always -fpic
+# makefile (from `Makefile', line 205)
+_DIRECTORIES := bin bin/Release bin/Release/dep bin/Release/dep/Platform bin/Release/dep/Platform/MacOS bin/Release/dep/Platform/Unix bin/Release/dep/Platform/Win32 bin/Release/dep/Utility bin/Release/obj bin/Release/obj/Platform bin/Release/obj/Platform/MacOS bin/Release/obj/Platform/Unix bin/Release/obj/Platform/Win32 bin/Release/obj/Utility
+# makefile (from `bin/Release/dep/PCH.d', line 1)
+MAKEFILE_LIST :=  Makefile env/.all.mk env/.release.mk env/linux.all.mk bin/Release/dep/Platform/MacOS/MacOSPlatform.cpp.d bin/Release/dep/Platform/Unix/LinuxPlatform.cpp.d bin/Release/dep/Platform/Win32/WindowsPlatform.cpp.d bin/Release/dep/Main.cpp.d bin/Release/dep/PCH.d
+# makefile (from `Makefile', line 88)
+LIB_DIR := lib
+# makefile (from `Makefile', line 186)
+_PCH_EXT := hpp
+# makefile (from `Makefile', line 171)
+OBJ_DIR := bin/Release/obj
+# makefile (from `Makefile', line 185)
+_PCH_HFILE := PCH.hpp
+# makefile (from `Makefile', line 175)
+_OBJS := Platform/MacOS/MacOSPlatform.cpp.o Platform/Unix/LinuxPlatform.cpp.o Platform/Win32/WindowsPlatform.cpp.o Main.cpp.o
+# makefile (from `Makefile', line 236)
+POST_COMPILE = mv -f $(DEP_DIR)/$*.Td $(DEP_DIR)/$*.d && touch $@
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# makefile (from `env/.all.mk', line 5)
+_CFLAGS_STD := -std=c++17
+# makefile (from `Makefile', line 129)
+PRODUCTION_MACOS_BACKGROUND = dmg-background
+# makefile (from `Makefile', line 238)
+POST_COMPILE_RC = mv -f $(DEP_DIR)/$*.rc.Td $(DEP_DIR)/$*.rc.d && touch $@
+# makefile (from `env/.all.mk', line 21)
+PRODUCTION_EXCLUDE := *.psd *.rar *.7z Thumbs.db .DS_Store
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# makefile (from `Makefile', line 16)
+_BUILDL := release
+# makefile (from `Makefile', line 254)
+ORIGIN_FLAG := '-Wl,-R$$ORIGIN'
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/l0/7hz0gfps5l732f3pzgvz49000000gq/T/vscode-ipc-01e9373c-0af5-40cf-a63a-55d8af102f39.sock
+# makefile (from `env/linux.all.mk', line 19)
+PRODUCTION_LINUX_ICON := sfml
+# makefile (from `Makefile', line 189)
+_SYMBOLS := -s
+# environment
+VSCODE_CWD = /
+# makefile (from `env/linux.all.mk', line 7)
+INCLUDE_DIRS := /usr/local/include
+# makefile (from `Makefile', line 154)
+_BASENAME := game
+# environment
+PATH = /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+# makefile (from `Makefile', line 212)
+_Q := @
+# makefile (from `Makefile', line 79)
+BUILD_DEPENDENCIES = 
+# makefile (from `env/.all.mk', line 2)
+CLEAN_OUTPUT := true
+# makefile (from `Makefile', line 103)
+TEST_DIR := 
+# makefile (from `Makefile', line 127)
+PRODUCTION_MACOS_BUNDLE_NAME = App
+# makefile (from `Makefile', line 207)
+_CLEAN := true
+# makefile (from `Makefile', line 128)
+PRODUCTION_MACOS_MAKE_DMG = true
+# environment
+VSCODE_LOG_STACK = false
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# makefile (from `env/.all.mk', line 1)
+MAX_PARALLEL_JOBS := 8
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# makefile (from `Makefile', line 282)
+linking_with = 	$(if $(_CLEAN),@printf '\n$(color_blue)$(UNI_LINK)  Linking: $(1)')
+# makefile (from `Makefile', line 74)
+BUILD_MACROS = 
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.QvlLVa3Htw/Listeners
+# automatic
+%F = $(notdir $%)
+# makefile (from `Makefile', line 180)
+_DEPS := Platform/MacOS/MacOSPlatform.cpp.d Platform/Unix/LinuxPlatform.cpp.d Platform/Win32/WindowsPlatform.cpp.d Main.cpp.d
+# makefile (from `Makefile', line 220)
+CFLAGS_DEPS = -MT $@ -MMD -MP -MF $(DEP_DIR)/$*.Td
+# environment
+VSCODE_PIPE_LOGGING = true
+# makefile (from `Makefile', line 176)
+OBJS := bin/Release/obj/Platform/MacOS/MacOSPlatform.cpp.o bin/Release/obj/Platform/Unix/LinuxPlatform.cpp.o bin/Release/obj/Platform/Win32/WindowsPlatform.cpp.o bin/Release/obj/Main.cpp.o
+# environment
+PWD = /Users/katy.garnier/Documents/cpp_projects/sfml-vscode-boilerplate
+# makefile (from `Makefile', line 96)
+_INCLUDE_DIRS := -Isrc/ -Ilib/ -I/usr/local/include
+# makefile (from `env/.all.mk', line 6)
+_CFLAGS_WARNINGS := -Wall -Werror -Wextra -Wpedantic -Wunreachable-code -Wunused -Wignored-qualifiers -Wcast-align -Wformat-nonliteral -Wformat=2 -Winvalid-pch -Wmissing-declarations -Wmissing-format-attribute -Wmissing-include-dirs -Wredundant-decls -Wswitch-default -Wodr
+# makefile (from `Makefile', line 385)
+define do_copy_to
+	@printf  '$(color_blue)cp -r $(1) $(2)\n'
+	$(shell cp -r "$(1)" "$(2)")
+endef
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# makefile (from `Makefile', line 91)
+SOURCE_FILES := Platform/MacOS/MacOSPlatform.cpp Platform/Unix/LinuxPlatform.cpp Platform/Win32/WindowsPlatform.cpp Platform/Win32/Resource.rc Main.cpp
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+HOME = /Users/katy.garnier
+# makefile (from `Makefile', line 224)
+_INCLUDE_PCH := -include bin/Release/obj/PCH.hpp
+# default
+MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
+# makefile (from `Makefile', line 22)
+SRC_TARGET = 
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/katy.garnier/Library/Application Support/Code/CachedData/fe719cd3e5825bf14e14182fddeb88ee8daf044f
+# environment
+LOGNAME = katy.garnier
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# makefile (from `env/.all.mk', line 3)
+DUMP_ASSEMBLY := false
+# makefile (from `Makefile', line 60)
+PRODUCTION_FOLDER_RESOURCES := build
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile (from `Makefile', line 290)
+MKDIR := @mkdir -p
+# makefile (from `Makefile', line 192)
+_PCH := bin/Release/obj/PCH.hpp
+# environment
+XPC_FLAGS = 0x0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# makefile (from `env/.all.mk', line 17)
+PRECOMPILED_HEADER := PCH
+ 
+make: *** [all] Error 1
+ 
+# makefile (from `Makefile', line 167)
+_LIB_DIRS := -Llib/ -L/usr/local/lib
+# environment
+SHLVL = 1
+# makefile (from `env/linux.all.mk', line 1)
+CC := g++
+# makefile (from `env/.all.mk', line 7)
+_CFLAGS_OTHER := -fdiagnostics-color=always
+# makefile (from `env/linux.all.mk', line 10)
+BUILD_FLAGS :=  -pthread
+# makefile (from `Makefile', line 277)
+define compile_with
+	$(if $(_CLEAN),@printf '   $(color_blue)$($(2):$(OBJ_DIR)/%=%)\n',@printf '$(color_blue)')
+	$(_Q)$(3) && $(4)
+endef
+# makefile (from `Makefile', line 37)
+BUILD_STATIC = false
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = katy.garnier
+# makefile
+.DEFAULT_GOAL := all
+# makefile (from `Makefile', line 83)
+NAME = game.exe
+# makefile (from `Makefile', line 222)
+PCH_COMPILE = $(CC) $(CFLAGS_DEPS) $(_BUILD_MACROS) $(CFLAGS) $(_INCLUDE_DIRS) -o $@ -c $<
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := /Library/Developer/CommandLineTools/usr/bin/make
+# makefile (from `Makefile', line 237)
+POST_COMPILE_T = mv -f $(DEP_DIR)/.$(TEST_DIR)/$*.Td $(DEP_DIR)/.$(TEST_DIR)/$*.d && touch $@
+# default
+.VARIABLES := 
+# makefile (from `Makefile', line 99)
+_LINK_LIBRARIES := -lsfml-graphics -lsfml-audio -lsfml-network -lsfml-window -lsfml-system -lstdc++fs -lX11
+# environment
+TMPDIR = /var/folders/l0/7hz0gfps5l732f3pzgvz49000000gq/T/
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /Users/katy.garnier/Library/Application Support/Code/1.63.1-main.sock
+# makefile (from `Makefile', line 390)
+copy_to = 	$(if $(wildcard $(2)/$(notdir $(1))),,$(if $(_CLEAN),$(call do_copy_to_clean,$(1),$(2)),$(call do_copy_to,$(1),$(2))))
+# makefile (from `Makefile', line 93)
+PROJECT_DIRS := Platform Platform/MacOS Platform/Unix Platform/Win32 Utility
+# makefile (from `Makefile', line 217)
+RC = windres.exe
+# makefile
+MAKEFLAGS =  --no-print-directory -Rrqp
+# makefile (from `Makefile', line 194)
+_PCH_GCH := bin/Release/obj/PCH.hpp.gch
+# environment
+MFLAGS = - --no-print-directory -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.2650272.2650278
+# makefile (from `Makefile', line 187)
+_PCH_COMPILER_EXT := gch
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# makefile (from `Makefile', line 98)
+_BUILD_MACROS := 
+# makefile (from `Makefile', line 125)
+PRODUCTION_MACOS_BUNDLE_COMPANY = developer
+# makefile (from `Makefile', line 275)
+color_purple := \033[0;35m
+# automatic
++F = $(notdir $+)
+# makefile (from `Makefile', line 380)
+define do_copy_to_clean
+	@printf  '$(color_blue)$(UNI_COPY)  Copying \"$(1)\" to \"$(CURDIR)/$(2)\"\n'
+	$(shell cp -r "$(1)" "$(2)")
+endef
+# makefile (from `Makefile', line 234)
+ASM_COMPILE = objdump -d -C -Mintel $< > $@
+# makefile (from `env/linux.all.mk', line 4)
+LIB_DIRS := /usr/local/lib
+# makefile (from `Makefile', line 227)
+OBJ_COMPILE = $(CC) $(CFLAGS_DEPS) $(_BUILD_MACROS) $(_INCLUDE_DIRS) $(_INCLUDE_PCH) $(CFLAGS) -o $@ -c $<
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F7:0x0:0x0
+# environment
+COMMAND_MODE = unix2003
+# makefile (from `Makefile', line 13)
+PLATFORM = linux
+# default
+MAKEFILES := 
+# makefile (from `Makefile', line 124)
+PRODUCTION_MACOS_ICON = icon
+# makefile (from `Makefile', line 87)
+SRC_DIR := src
+# makefile (from `Makefile', line 15)
+BUILD = Release
+# automatic
+<F = $(notdir $<)
+# makefile (from `Makefile', line 209)
+_TARGET_DEPS := bin/Release/obj/PCH.hpp.gch bin/Release/obj/Platform/MacOS/MacOSPlatform.cpp.o bin/Release/obj/Platform/Unix/LinuxPlatform.cpp.o bin/Release/obj/Platform/Win32/WindowsPlatform.cpp.o bin/Release/obj/Main.cpp.o  
+# makefile (from `env/linux.all.mk', line 22)
+PRODUCTION_LINUX_APP_COMMENT := My SFML Game
+# environment
+LC_ALL = C
+# makefile (from `env/linux.all.mk', line 14)
+LINK_LIBRARIES := sfml-graphics sfml-audio sfml-network sfml-window sfml-system stdc++fs X11
+# makefile (from `Makefile', line 221)
+CFLAGS_DEPS_T = -MT $@ -MMD -MP -MF $(DEP_DIR)/.$(TEST_DIR)/$*.Td
+# automatic
+^F = $(notdir $^)
+# makefile (from `Makefile', line 181)
+DEPS := bin/Release/dep/Platform/MacOS/MacOSPlatform.cpp.d bin/Release/dep/Platform/Unix/LinuxPlatform.cpp.d bin/Release/dep/Platform/Win32/WindowsPlatform.cpp.d bin/Release/dep/Main.cpp.d bin/Release/dep/PCH.d
+# makefile (from `Makefile', line 230)
+RC_COMPILE = -$(RC) -J rc -O coff --preprocessor-arg=-MT --preprocessor-arg=$@ --preprocessor-arg=-MMD --preprocessor-arg=-MP --preprocessor-arg=-MF --preprocessor-arg=$(DEP_DIR)/$*.rc.Td $(_BUILD_MACROS) $(_INCLUDE_DIRS) -i $< -o $@
+# makefile (from `Makefile', line 2)
+SUFFIXES = 
+# makefile (from `Makefile', line 242)
+UNI_COPY := ➦
+# makefile (from `env/.all.mk', line 28)
+PRODUCTION_DEPENDENCIES := content
+# default
+.INCLUDE_DIRS = /usr/local/include
+# makefile (from `Makefile', line 182)
+DEP_SUBDIRS := bin/Release/dep/Platform bin/Release/dep/Platform/MacOS bin/Release/dep/Platform/Unix bin/Release/dep/Platform/Win32 bin/Release/dep/Utility
+# makefile (from `Makefile', line 274)
+color_blue := \033[0;34m
+# environment
+MAKELEVEL := 0
+# makefile (from `Makefile', line 286)
+build_deps = 	$(foreach dep,$(BUILD_DEPENDENCIES),$(call copy_to,$(dep),$(BLD_DIR)))
+# makefile (from `Makefile', line 169)
+_SOURCES_IF_RC := Platform/MacOS/MacOSPlatform.cpp Platform/Unix/LinuxPlatform.cpp Platform/Win32/WindowsPlatform.cpp Main.cpp
+# environment
+LANG = C
+# environment
+VSCODE_PID = 15031
+# makefile (from `env/.all.mk', line 19)
+PRODUCTION_FOLDER := build
+# variable set hash-table stats:
+# Load=152/1024=15%, Rehash=0, Collisions=36/406=9%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777220, inode 2570019): 18 files, no impossibilities.
+# bin/Release/dep/Platform/Win32 (device 16777220, inode 2648281): 3 files, no impossibilities so far.
+# /Users/katy.garnier/.local/share (device 16777220, inode 105513): 3 files, no impossibilities.
+# bin/Release/dep/Platform/Unix (device 16777220, inode 2648280): 3 files, no impossibilities so far.
+# bin/Release/dep/Platform/MacOS (device 16777220, inode 2648279): 3 files, no impossibilities so far.
+# bin/Release/obj (device 16777220, inode 2648283): No files, no impossibilities so far.
+# bin/Release/dep (device 16777220, inode 2648277): 6 files, no impossibilities so far.
+
+# 36 files, no impossibilities in 7 directories.
+
+# Implicit Rules
+
+bin/Release/obj/%.o: src/% bin/Release/obj/PCH.hpp.gch | bin/Release/dep/%.d bin bin/Release bin/Release/dep bin/Release/dep/Platform bin/Release/dep/Platform/MacOS bin/Release/dep/Platform/Unix bin/Release/dep/Platform/Win32 bin/Release/dep/Utility bin/Release/obj bin/Release/obj/Platform bin/Release/obj/Platform/MacOS bin/Release/obj/Platform/Unix bin/Release/obj/Platform/Win32 bin/Release/obj/Utility
+#  commands to execute (from `Makefile', line 307):
+	$(call compile_with,@,<,$(OBJ_COMPILE),$(POST_COMPILE))
+	
+
+bin/Release/obj/./%.o: /% bin/Release/obj/PCH.hpp.gch | bin/Release/dep/./%.d bin bin/Release bin/Release/dep bin/Release/dep/Platform bin/Release/dep/Platform/MacOS bin/Release/dep/Platform/Unix bin/Release/dep/Platform/Win32 bin/Release/dep/Utility bin/Release/obj bin/Release/obj/Platform bin/Release/obj/Platform/MacOS bin/Release/obj/Platform/Unix bin/Release/obj/Platform/Win32 bin/Release/obj/Utility
+#  commands to execute (from `Makefile', line 310):
+	$(call compile_with,@,<,$(OBJ_COMPILE_T),$(POST_COMPILE_T))
+	
+
+bin/Release/obj/%.hpp.gch: src/%.hpp | bin/Release/dep/%.d bin bin/Release bin/Release/dep bin/Release/dep/Platform bin/Release/dep/Platform/MacOS bin/Release/dep/Platform/Unix bin/Release/dep/Platform/Win32 bin/Release/dep/Utility bin/Release/obj bin/Release/obj/Platform bin/Release/obj/Platform/MacOS bin/Release/obj/Platform/Unix bin/Release/obj/Platform/Win32 bin/Release/obj/Utility
+#  commands to execute (from `Makefile', line 313):
+	$(call compile_with,@,<,$(PCH_COMPILE),$(POST_COMPILE))
+	
+
+ 
+bin/Release/obj/%.res: src/%.rc | bin/Release/dep/%.rc.d bin bin/Release bin/Release/dep bin/Release/dep/Platform bin/Release/dep/Platform/MacOS bin/Release/dep/Platform/Unix bin/Release/dep/Platform/Win32 bin/Release/dep/Utility bin/Release/obj bin/Release/obj/Platform bin/Release/obj/Platform/MacOS bin/Release/obj/Platform/Unix bin/Release/obj/Platform/Win32 bin/Release/obj/Utility
+#  commands to execute (from `Makefile', line 316):
+	$(call compile_with,@,<,$(RC_COMPILE),$(POST_COMPILE_RC))
+	
+
+/%.o.asm: bin/Release/obj/%.o
+#  commands to execute (from `Makefile', line 319):
+	$(if $(_CLEAN),@printf '   $(color_purple)$@\n')
+	$(_Q)$(ASM_COMPILE)
+	
+
+bin/Release/lib%-s.a: bin/Release/obj/PCH.hpp.gch bin/Release/obj/Platform/MacOS/MacOSPlatform.cpp.o bin/Release/obj/Platform/Unix/LinuxPlatform.cpp.o bin/Release/obj/Platform/Win32/WindowsPlatform.cpp.o bin/Release/obj/Main.cpp.o
+#  commands to execute (from `Makefile', line 323):
+	$(call linking_with,$@)
+	-$(_Q)rm -rf $@
+	$(_Q)ar -c -r -s $@ $(OBJS)
+	@printf '\n'
+	
+
+bin/Release/dep/%.d:
+#  commands to execute (from `Makefile', line 468):
+	
+
+%.c:
+
+%.cpp:
+
+%.h:
+
+%.hpp:
+
+%.rc:
+
+%.res:
+
+%.inl:
+
+%.o:
+
+%.d:
+
+%.asm:
+
+# 17 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+bin/Release/obj/PCH.hpp.pch: src/PCH.hpp /usr/local/include/SFML/Audio.hpp /usr/local/include/SFML/System.hpp /usr/local/include/SFML/Config.hpp /usr/local/include/SFML/System/Clock.hpp /usr/local/include/SFML/System/Export.hpp /usr/local/include/SFML/System/Time.hpp /usr/local/include/SFML/System/Err.hpp /usr/local/include/SFML/System/FileInputStream.hpp /usr/local/include/SFML/System/InputStream.hpp /usr/local/include/SFML/System/NonCopyable.hpp /usr/local/include/SFML/System/Lock.hpp /usr/local/include/SFML/System/MemoryInputStream.hpp /usr/local/include/SFML/System/Mutex.hpp /usr/local/include/SFML/System/Sleep.hpp /usr/local/include/SFML/System/String.hpp /usr/local/include/SFML/System/Utf.hpp /usr/local/include/SFML/System/Utf.inl /usr/local/include/SFML/System/String.inl /usr/local/include/SFML/System/Thread.hpp /usr/local/include/SFML/System/Thread.inl /usr/local/include/SFML/System/ThreadLocal.hpp /usr/local/include/SFML/System/ThreadLocalPtr.hpp /usr/local/include/SFML/System/ThreadLocalPtr.inl /usr/local/include/SFML/System/Vector2.hpp /usr/local/include/SFML/System/Vector2.inl /usr/local/include/SFML/System/Vector3.hpp /usr/local/include/SFML/System/Vector3.inl /usr/local/include/SFML/Audio/InputSoundFile.hpp /usr/local/include/SFML/Audio/Export.hpp /usr/local/include/SFML/Audio/Listener.hpp /usr/local/include/SFML/Audio/Music.hpp /usr/local/include/SFML/Audio/SoundStream.hpp /usr/local/include/SFML/Audio/SoundSource.hpp /usr/local/include/SFML/Audio/AlResource.hpp /usr/local/include/SFML/Audio/OutputSoundFile.hpp /usr/local/include/SFML/Audio/Sound.hpp /usr/local/include/SFML/Audio/SoundBuffer.hpp /usr/local/include/SFML/Audio/SoundBufferRecorder.hpp /usr/local/include/SFML/Audio/SoundRecorder.hpp /usr/local/include/SFML/Audio/SoundFileFactory.hpp /usr/local/include/SFML/Audio/SoundFileFactory.inl /usr/local/include/SFML/Audio/SoundFileReader.hpp /usr/local/include/SFML/Audio/SoundFileWriter.hpp /usr/local/include/SFML/Graphics.hpp /usr/local/include/SFML/Window.hpp /usr/local/include/SFML/Window/Clipboard.hpp /usr/local/include/SFML/Window/Export.hpp /usr/local/include/SFML/Window/Context.hpp /usr/local/include/SFML/Window/GlResource.hpp /usr/local/include/SFML/Window/ContextSettings.hpp /usr/local/include/SFML/Window/Cursor.hpp /usr/local/include/SFML/Window/Event.hpp /usr/local/include/SFML/Window/Joystick.hpp /usr/local/include/SFML/Window/Keyboard.hpp /usr/local/include/SFML/Window/Mouse.hpp /usr/local/include/SFML/Window/Sensor.hpp /usr/local/include/SFML/Window/Touch.hpp /usr/local/include/SFML/Window/VideoMode.hpp /usr/local/include/SFML/Window/Window.hpp /usr/local/include/SFML/Window/WindowHandle.hpp /usr/local/include/SFML/Window/WindowStyle.hpp /usr/local/include/SFML/Graphics/BlendMode.hpp /usr/local/include/SFML/Graphics/Export.hpp /usr/local/include/SFML/Graphics/CircleShape.hpp /usr/local/include/SFML/Graphics/Shape.hpp /usr/local/include/SFML/Graphics/Drawable.hpp /usr/local/include/SFML/Graphics/RenderStates.hpp /usr/local/include/SFML/Graphics/Transform.hpp /usr/local/include/SFML/Graphics/Rect.hpp /usr/local/include/SFML/Graphics/Rect.inl /usr/local/include/SFML/Graphics/Transformable.hpp /usr/local/include/SFML/Graphics/VertexArray.hpp /usr/local/include/SFML/Graphics/Vertex.hpp /usr/local/include/SFML/Graphics/Color.hpp /usr/local/include/SFML/Graphics/PrimitiveType.hpp /usr/local/include/SFML/Graphics/ConvexShape.hpp /usr/local/include/SFML/Graphics/Font.hpp /usr/local/include/SFML/Graphics/Glyph.hpp /usr/local/include/SFML/Graphics/Texture.hpp /usr/local/include/SFML/Graphics/Image.hpp /usr/local/include/SFML/Graphics/RectangleShape.hpp /usr/local/include/SFML/Graphics/RenderTarget.hpp /usr/local/include/SFML/Graphics/View.hpp /usr/local/include/SFML/Graphics/RenderTexture.hpp /usr/local/include/SFML/Graphics/RenderWindow.hpp /usr/local/include/SFML/Graphics/Shader.hpp /usr/local/include/SFML/Graphics/Glsl.hpp /usr/local/include/SFML/Graphics/Glsl.inl /usr/local/include/SFML/Graphics/Sprite.hpp /usr/local/include/SFML/Graphics/Text.hpp /usr/local/include/SFML/Graphics/VertexBuffer.hpp /usr/local/include/SFML/Network.hpp /usr/local/include/SFML/Network/Ftp.hpp /usr/local/include/SFML/Network/Export.hpp /usr/local/include/SFML/Network/TcpSocket.hpp /usr/local/include/SFML/Network/Socket.hpp /usr/local/include/SFML/Network/SocketHandle.hpp /usr/local/include/SFML/Network/Http.hpp /usr/local/include/SFML/Network/IpAddress.hpp /usr/local/include/SFML/Network/Packet.hpp /usr/local/include/SFML/Network/SocketSelector.hpp /usr/local/include/SFML/Network/TcpListener.hpp /usr/local/include/SFML/Network/UdpSocket.hpp src/Utility/FileSystem.hpp src/Utility/Types.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bin/Release/dep/Platform/MacOS/MacOSPlatform.cpp.d:
+#  Precious file (prerequisite of .PRECIOUS).
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `Platform/MacOS/MacOSPlatform.cpp'
+#  Last modified 2021-12-14 14:59:46
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 468):
+	
+
+/usr/local/include/SFML/Graphics/Glyph.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/Platform/MacOS/MacOSPlatform.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/Users/katy.garnier/Documents/cpp_projects/sfml-vscode-boilerplate/src/Utility/FileSystem.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Graphics.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Graphics/Glsl.inl:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/System/Vector2.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/Users/katy.garnier/Documents/cpp_projects/sfml-vscode-boilerplate/src/PCH.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bin/Release/obj/Platform/Win32:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 357):
+	$(if $(_CLEAN),,@printf '\$(color_blue)')
+	$(MKDIR) $@
+	
+
+/usr/local/include/SFML/Network/Http.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Network/Ftp.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Network/TcpSocket.hpp:
+ 
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/System/String.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Network/Socket.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/System/NonCopyable.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+env/.all.mk:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2021-12-13 20:17:24
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+src/Platform/Platform.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Graphics/Image.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Graphics/Glsl.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bin/Release/obj/Platform/Win32/WindowsPlatform.cpp.o: /Users/katy.garnier/Documents/cpp_projects/sfml-vscode-boilerplate/src/Utility/Types.hpp /Users/katy.garnier/Documents/cpp_projects/sfml-vscode-boilerplate/src/Utility/FileSystem.hpp /usr/local/include/SFML/Network/UdpSocket.hpp /usr/local/include/SFML/Network/TcpListener.hpp /usr/local/include/SFML/Network/SocketSelector.hpp /usr/local/include/SFML/Network/Packet.hpp /usr/local/include/SFML/Network/IpAddress.hpp /usr/local/include/SFML/Network/Http.hpp /usr/local/include/SFML/Network/SocketHandle.hpp /usr/local/include/SFML/Network/Socket.hpp /usr/local/include/SFML/Network/TcpSocket.hpp /usr/local/include/SFML/Network/Export.hpp /usr/local/include/SFML/Network/Ftp.hpp /usr/local/include/SFML/Network.hpp /usr/local/include/SFML/Graphics/VertexBuffer.hpp /usr/local/include/SFML/Graphics/Text.hpp /usr/local/include/SFML/Graphics/Sprite.hpp /usr/local/include/SFML/Graphics/Glsl.inl /usr/local/include/SFML/Graphics/Glsl.hpp /usr/local/include/SFML/Graphics/Shader.hpp /usr/local/include/SFML/Graphics/RenderWindow.hpp /usr/local/include/SFML/Graphics/RenderTexture.hpp /usr/local/include/SFML/Graphics/View.hpp /usr/local/include/SFML/Graphics/RenderTarget.hpp /usr/local/include/SFML/Graphics/RectangleShape.hpp /usr/local/include/SFML/Graphics/Image.hpp /usr/local/include/SFML/Graphics/Texture.hpp /usr/local/include/SFML/Graphics/Glyph.hpp /usr/local/include/SFML/Graphics/Font.hpp /usr/local/include/SFML/Graphics/ConvexShape.hpp /usr/local/include/SFML/Graphics/PrimitiveType.hpp /usr/local/include/SFML/Graphics/Color.hpp /usr/local/include/SFML/Graphics/Vertex.hpp /usr/local/include/SFML/Graphics/VertexArray.hpp /usr/local/include/SFML/Graphics/Transformable.hpp /usr/local/include/SFML/Graphics/Rect.inl /usr/local/include/SFML/Graphics/Rect.hpp /usr/local/include/SFML/Graphics/Transform.hpp /usr/local/include/SFML/Graphics/RenderStates.hpp /usr/local/include/SFML/Graphics/Drawable.hpp /usr/local/include/SFML/Graphics/Shape.hpp /usr/local/include/SFML/Graphics/CircleShape.hpp /usr/local/include/SFML/Graphics/Export.hpp /usr/local/include/SFML/Graphics/BlendMode.hpp /usr/local/include/SFML/Window/WindowStyle.hpp /usr/local/include/SFML/Window/WindowHandle.hpp /usr/local/include/SFML/Window/Window.hpp /usr/local/include/SFML/Window/VideoMode.hpp /usr/local/include/SFML/Window/Touch.hpp /usr/local/include/SFML/Window/Sensor.hpp /usr/local/include/SFML/Window/Mouse.hpp /usr/local/include/SFML/Window/Keyboard.hpp /usr/local/include/SFML/Window/Joystick.hpp /usr/local/include/SFML/Window/Event.hpp /usr/local/include/SFML/Window/Cursor.hpp /usr/local/include/SFML/Window/ContextSettings.hpp /usr/local/include/SFML/Window/GlResource.hpp /usr/local/include/SFML/Window/Context.hpp /usr/local/include/SFML/Window/Export.hpp /usr/local/include/SFML/Window/Clipboard.hpp /usr/local/include/SFML/Window.hpp /usr/local/include/SFML/Graphics.hpp /usr/local/include/SFML/Audio/SoundFileWriter.hpp /usr/local/include/SFML/Audio/SoundFileReader.hpp /usr/local/include/SFML/Audio/SoundFileFactory.inl /usr/local/include/SFML/Audio/SoundFileFactory.hpp /usr/local/include/SFML/Audio/SoundRecorder.hpp /usr/local/include/SFML/Audio/SoundBufferRecorder.hpp /usr/local/include/SFML/Audio/SoundBuffer.hpp /usr/local/include/SFML/Audio/Sound.hpp /usr/local/include/SFML/Audio/OutputSoundFile.hpp /usr/local/include/SFML/Audio/AlResource.hpp /usr/local/include/SFML/Audio/SoundSource.hpp /usr/local/include/SFML/Audio/SoundStream.hpp /usr/local/include/SFML/Audio/Music.hpp /usr/local/include/SFML/Audio/Listener.hpp /usr/local/include/SFML/Audio/Export.hpp /usr/local/include/SFML/Audio/InputSoundFile.hpp /usr/local/include/SFML/System/Vector3.inl /usr/local/include/SFML/System/Vector3.hpp /usr/local/include/SFML/System/Vector2.inl /usr/local/include/SFML/System/Vector2.hpp /usr/local/include/SFML/System/ThreadLocalPtr.inl /usr/local/include/SFML/System/ThreadLocalPtr.hpp /usr/local/include/SFML/System/ThreadLocal.hpp /usr/local/include/SFML/System/Thread.inl /usr/local/include/SFML/System/Thread.hpp /usr/local/include/SFML/System/String.inl /usr/local/include/SFML/System/Utf.inl /usr/local/include/SFML/System/Utf.hpp /usr/local/include/SFML/System/String.hpp /usr/local/include/SFML/System/Sleep.hpp /usr/local/include/SFML/System/Mutex.hpp /usr/local/include/SFML/System/MemoryInputStream.hpp /usr/local/include/SFML/System/Lock.hpp /usr/local/include/SFML/System/NonCopyable.hpp /usr/local/include/SFML/System/InputStream.hpp /usr/local/include/SFML/System/FileInputStream.hpp /usr/local/include/SFML/System/Err.hpp /usr/local/include/SFML/System/Time.hpp /usr/local/include/SFML/System/Export.hpp /usr/local/include/SFML/System/Clock.hpp /usr/local/include/SFML/Config.hpp /usr/local/include/SFML/System.hpp /usr/local/include/SFML/Audio.hpp /Users/katy.garnier/Documents/cpp_projects/sfml-vscode-boilerplate/src/PCH.hpp src/Platform/Win32/WindowsPlatform.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Graphics/Rect.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all:
+#  Command-line target.
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `'
+#  Modification time never checked.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+# @ := all
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=4/15=27%
+#  commands to execute (from `Makefile', line 262):
+	@$(MAKE) makepch
+	@$(MAKE) -j$(MAX_PARALLEL_JOBS) makebuild
+	
+
+bin:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 357):
+	$(if $(_CLEAN),,@printf '\$(color_blue)')
+	$(MKDIR) $@
+	
+
+# Not a target:
+.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Window/Event.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/System/Mutex.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.PHONY: rebuild buildprod makepch makebuild clean rmprod mkdirprod releasetoprod makeproduction
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Graphics/RenderStates.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Graphics/Texture.hpp:
+#  Implicit rule search has not been done.
+ 
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Audio/SoundSource.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Graphics/BlendMode.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Graphics/Export.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/Platform/MacOS/MacOSPlatform.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bin/Release/obj/Platform/MacOS:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 357):
+	$(if $(_CLEAN),,@printf '\$(color_blue)')
+	$(MKDIR) $@
+	
+
+bin/Release/obj/Platform/Unix/LinuxPlatform.cpp.o: /Users/katy.garnier/Documents/cpp_projects/sfml-vscode-boilerplate/src/Utility/Types.hpp /Users/katy.garnier/Documents/cpp_projects/sfml-vscode-boilerplate/src/Utility/FileSystem.hpp /usr/local/include/SFML/Network/UdpSocket.hpp /usr/local/include/SFML/Network/TcpListener.hpp /usr/local/include/SFML/Network/SocketSelector.hpp /usr/local/include/SFML/Network/Packet.hpp /usr/local/include/SFML/Network/IpAddress.hpp /usr/local/include/SFML/Network/Http.hpp /usr/local/include/SFML/Network/SocketHandle.hpp /usr/local/include/SFML/Network/Socket.hpp /usr/local/include/SFML/Network/TcpSocket.hpp /usr/local/include/SFML/Network/Export.hpp /usr/local/include/SFML/Network/Ftp.hpp /usr/local/include/SFML/Network.hpp /usr/local/include/SFML/Graphics/VertexBuffer.hpp /usr/local/include/SFML/Graphics/Text.hpp /usr/local/include/SFML/Graphics/Sprite.hpp /usr/local/include/SFML/Graphics/Glsl.inl /usr/local/include/SFML/Graphics/Glsl.hpp /usr/local/include/SFML/Graphics/Shader.hpp /usr/local/include/SFML/Graphics/RenderWindow.hpp /usr/local/include/SFML/Graphics/RenderTexture.hpp /usr/local/include/SFML/Graphics/View.hpp /usr/local/include/SFML/Graphics/RenderTarget.hpp /usr/local/include/SFML/Graphics/RectangleShape.hpp /usr/local/include/SFML/Graphics/Image.hpp /usr/local/include/SFML/Graphics/Texture.hpp /usr/local/include/SFML/Graphics/Glyph.hpp /usr/local/include/SFML/Graphics/Font.hpp /usr/local/include/SFML/Graphics/ConvexShape.hpp /usr/local/include/SFML/Graphics/PrimitiveType.hpp /usr/local/include/SFML/Graphics/Color.hpp /usr/local/include/SFML/Graphics/Vertex.hpp /usr/local/include/SFML/Graphics/VertexArray.hpp /usr/local/include/SFML/Graphics/Transformable.hpp /usr/local/include/SFML/Graphics/Rect.inl /usr/local/include/SFML/Graphics/Rect.hpp /usr/local/include/SFML/Graphics/Transform.hpp /usr/local/include/SFML/Graphics/RenderStates.hpp /usr/local/include/SFML/Graphics/Drawable.hpp /usr/local/include/SFML/Graphics/Shape.hpp /usr/local/include/SFML/Graphics/CircleShape.hpp /usr/local/include/SFML/Graphics/Export.hpp /usr/local/include/SFML/Graphics/BlendMode.hpp /usr/local/include/SFML/Window/WindowStyle.hpp /usr/local/include/SFML/Window/WindowHandle.hpp /usr/local/include/SFML/Window/Window.hpp /usr/local/include/SFML/Window/VideoMode.hpp /usr/local/include/SFML/Window/Touch.hpp /usr/local/include/SFML/Window/Sensor.hpp /usr/local/include/SFML/Window/Mouse.hpp /usr/local/include/SFML/Window/Keyboard.hpp /usr/local/include/SFML/Window/Joystick.hpp /usr/local/include/SFML/Window/Event.hpp /usr/local/include/SFML/Window/Cursor.hpp /usr/local/include/SFML/Window/ContextSettings.hpp /usr/local/include/SFML/Window/GlResource.hpp /usr/local/include/SFML/Window/Context.hpp /usr/local/include/SFML/Window/Export.hpp /usr/local/include/SFML/Window/Clipboard.hpp /usr/local/include/SFML/Window.hpp /usr/local/include/SFML/Graphics.hpp /usr/local/include/SFML/Audio/SoundFileWriter.hpp /usr/local/include/SFML/Audio/SoundFileReader.hpp /usr/local/include/SFML/Audio/SoundFileFactory.inl /usr/local/include/SFML/Audio/SoundFileFactory.hpp /usr/local/include/SFML/Audio/SoundRecorder.hpp /usr/local/include/SFML/Audio/SoundBufferRecorder.hpp /usr/local/include/SFML/Audio/SoundBuffer.hpp /usr/local/include/SFML/Audio/Sound.hpp /usr/local/include/SFML/Audio/OutputSoundFile.hpp /usr/local/include/SFML/Audio/AlResource.hpp /usr/local/include/SFML/Audio/SoundSource.hpp /usr/local/include/SFML/Audio/SoundStream.hpp /usr/local/include/SFML/Audio/Music.hpp /usr/local/include/SFML/Audio/Listener.hpp /usr/local/include/SFML/Audio/Export.hpp /usr/local/include/SFML/Audio/InputSoundFile.hpp /usr/local/include/SFML/System/Vector3.inl /usr/local/include/SFML/System/Vector3.hpp /usr/local/include/SFML/System/Vector2.inl /usr/local/include/SFML/System/Vector2.hpp /usr/local/include/SFML/System/ThreadLocalPtr.inl /usr/local/include/SFML/System/ThreadLocalPtr.hpp /usr/local/include/SFML/System/ThreadLocal.hpp /usr/local/include/SFML/System/Thread.inl /usr/local/include/SFML/System/Thread.hpp /usr/local/include/SFML/System/String.inl /usr/local/include/SFML/System/Utf.inl /usr/local/include/SFML/System/Utf.hpp /usr/local/include/SFML/System/String.hpp /usr/local/include/SFML/System/Sleep.hpp /usr/local/include/SFML/System/Mutex.hpp /usr/local/include/SFML/System/MemoryInputStream.hpp /usr/local/include/SFML/System/Lock.hpp /usr/local/include/SFML/System/NonCopyable.hpp /usr/local/include/SFML/System/InputStream.hpp /usr/local/include/SFML/System/FileInputStream.hpp /usr/local/include/SFML/System/Err.hpp /usr/local/include/SFML/System/Time.hpp /usr/local/include/SFML/System/Export.hpp /usr/local/include/SFML/System/Clock.hpp /usr/local/include/SFML/Config.hpp /usr/local/include/SFML/System.hpp /usr/local/include/SFML/Audio.hpp /Users/katy.garnier/Documents/cpp_projects/sfml-vscode-boilerplate/src/PCH.hpp src/Platform/Unix/LinuxPlatform.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Graphics/Sprite.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.PRECIOUS: bin/Release/dep/%.d
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Window/Sensor.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Graphics/RenderTexture.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/Utility/Types.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bin/Release/dep/Utility:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 357):
+	$(if $(_CLEAN),,@printf '\$(color_blue)')
+	$(MKDIR) $@
+	
+
+/usr/local/include/SFML/System/Sleep.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/Users/katy.garnier/Documents/cpp_projects/sfml-vscode-boilerplate/src/Utility/Types.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/System.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bin/Release/dep/Platform:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 357):
+	$(if $(_CLEAN),,@printf '\$(color_blue)')
+	$(MKDIR) $@
+	
+
+/usr/local/include/SFML/Window/ContextSettings.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bin/Release/obj:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 357):
+	$(if $(_CLEAN),,@printf '\$(color_blue)')
+	$(MKDIR) $@
+	
+
+/usr/local/include/SFML/Window/Clipboard.hpp:
+ 
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/System/Utf.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/System/Export.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bin/Release/game: bin/Release/obj/PCH.hpp.gch bin/Release/obj/Platform/MacOS/MacOSPlatform.cpp.o bin/Release/obj/Platform/Unix/LinuxPlatform.cpp.o bin/Release/obj/Platform/Win32/WindowsPlatform.cpp.o bin/Release/obj/Main.cpp.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 351):
+	$(call linking_with,$@)
+	$(_Q)$(CC) $(_LIB_DIRS) $(_SYMBOLS) -o $@ $(ORIGIN_FLAG) $(OBJS) $(_LINK_LIBRARIES) $(BUILD_FLAGS)
+	@printf '\n'
+	$(call build_deps)
+	
+
+/usr/local/include/SFML/Graphics/RenderTarget.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.SUFFIXES: .c .cpp .h .hpp .rc .res .inl .o .d .asm
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Audio/SoundFileFactory.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Audio/SoundFileReader.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2021-12-13 20:17:24
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/local/include/SFML/Network/SocketHandle.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+makebuild: bin/Release/game.exe
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 298):
+	@printf '   $(color_blue)Target is up to date.\n'
+	
+
+src/Main.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+rebuild: clean all
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+/usr/local/include/SFML/System/Vector2.inl:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bin/Release/dep/Platform/Win32/WindowsPlatform.cpp.d:
+#  Precious file (prerequisite of .PRECIOUS).
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `Platform/Win32/WindowsPlatform.cpp'
+#  Last modified 2021-12-14 14:59:45
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 468):
+	
+
+/usr/local/include/SFML/Config.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/Platform/Win32/WindowsPlatform.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/System/Time.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+env/linux.release.mk:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.rc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/System/String.inl:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Graphics/RenderWindow.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Graphics/VertexArray.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Graphics/Drawable.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Audio/OutputSoundFile.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/System/Err.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Graphics/Shader.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+rmprod:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 369):
+	@printf '\n'
+	-$(_Q)rm -rf "$(if $(filter osx,$(PLATFORM)),$(PRODUCTION_FOLDER_MACOS),$(PRODUCTION_FOLDER))"
+	-$(_Q)rm -rf ~/.local/share/applications/$(NAME).desktop
+	
+
+bin/Release/game.dylib: bin/Release/obj/PCH.hpp.gch bin/Release/obj/Platform/MacOS/MacOSPlatform.cpp.o bin/Release/obj/Platform/Unix/LinuxPlatform.cpp.o bin/Release/obj/Platform/Win32/WindowsPlatform.cpp.o bin/Release/obj/Main.cpp.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 340):
+	$(call linking_with,$(BLD_DIR)/$(_BASENAME).dylib)
+	$(_Q)$(CC) -dynamiclib -undefined suppress -flat_namespace $(_LIB_DIRS) $(OBJS) -o $@ $(_SYMBOLS) $(_LINK_LIBRARIES) $(BUILD_FLAGS)
+	@printf '\n'
+	
+
+/usr/local/include/SFML/System/MemoryInputStream.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+makepch: bin/Release/obj/PCH.hpp.gch
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 293):
+	@printf ''
+	
+
+/usr/local/include/SFML/Graphics/Rect.inl:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bin/Release/obj/Platform/Unix:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 357):
+	$(if $(_CLEAN),,@printf '\$(color_blue)')
+	$(MKDIR) $@
+	
+
+bin/Release/dep/Platform/Unix/LinuxPlatform.cpp.d:
+#  Precious file (prerequisite of .PRECIOUS).
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `Platform/Unix/LinuxPlatform.cpp'
+#  Last modified 2021-12-14 14:59:45
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 468):
+	
+
+src/Platform/Unix/LinuxPlatform.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/System/Clock.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+ 
+bin/Release/obj/Main.cpp.o: /Users/katy.garnier/Documents/cpp_projects/sfml-vscode-boilerplate/src/Utility/Types.hpp /Users/katy.garnier/Documents/cpp_projects/sfml-vscode-boilerplate/src/Utility/FileSystem.hpp /usr/local/include/SFML/Network/UdpSocket.hpp /usr/local/include/SFML/Network/TcpListener.hpp /usr/local/include/SFML/Network/SocketSelector.hpp /usr/local/include/SFML/Network/Packet.hpp /usr/local/include/SFML/Network/IpAddress.hpp /usr/local/include/SFML/Network/Http.hpp /usr/local/include/SFML/Network/SocketHandle.hpp /usr/local/include/SFML/Network/Socket.hpp /usr/local/include/SFML/Network/TcpSocket.hpp /usr/local/include/SFML/Network/Export.hpp /usr/local/include/SFML/Network/Ftp.hpp /usr/local/include/SFML/Network.hpp /usr/local/include/SFML/Graphics/VertexBuffer.hpp /usr/local/include/SFML/Graphics/Text.hpp /usr/local/include/SFML/Graphics/Sprite.hpp /usr/local/include/SFML/Graphics/Glsl.inl /usr/local/include/SFML/Graphics/Glsl.hpp /usr/local/include/SFML/Graphics/Shader.hpp /usr/local/include/SFML/Graphics/RenderWindow.hpp /usr/local/include/SFML/Graphics/RenderTexture.hpp /usr/local/include/SFML/Graphics/View.hpp /usr/local/include/SFML/Graphics/RenderTarget.hpp /usr/local/include/SFML/Graphics/RectangleShape.hpp /usr/local/include/SFML/Graphics/Image.hpp /usr/local/include/SFML/Graphics/Texture.hpp /usr/local/include/SFML/Graphics/Glyph.hpp /usr/local/include/SFML/Graphics/Font.hpp /usr/local/include/SFML/Graphics/ConvexShape.hpp /usr/local/include/SFML/Graphics/PrimitiveType.hpp /usr/local/include/SFML/Graphics/Color.hpp /usr/local/include/SFML/Graphics/Vertex.hpp /usr/local/include/SFML/Graphics/VertexArray.hpp /usr/local/include/SFML/Graphics/Transformable.hpp /usr/local/include/SFML/Graphics/Rect.inl /usr/local/include/SFML/Graphics/Rect.hpp /usr/local/include/SFML/Graphics/Transform.hpp /usr/local/include/SFML/Graphics/RenderStates.hpp /usr/local/include/SFML/Graphics/Drawable.hpp /usr/local/include/SFML/Graphics/Shape.hpp /usr/local/include/SFML/Graphics/CircleShape.hpp /usr/local/include/SFML/Graphics/Export.hpp /usr/local/include/SFML/Graphics/BlendMode.hpp /usr/local/include/SFML/Window/WindowStyle.hpp /usr/local/include/SFML/Window/WindowHandle.hpp /usr/local/include/SFML/Window/Window.hpp /usr/local/include/SFML/Window/VideoMode.hpp /usr/local/include/SFML/Window/Touch.hpp /usr/local/include/SFML/Window/Sensor.hpp /usr/local/include/SFML/Window/Mouse.hpp /usr/local/include/SFML/Window/Keyboard.hpp /usr/local/include/SFML/Window/Joystick.hpp /usr/local/include/SFML/Window/Event.hpp /usr/local/include/SFML/Window/Cursor.hpp /usr/local/include/SFML/Window/ContextSettings.hpp /usr/local/include/SFML/Window/GlResource.hpp /usr/local/include/SFML/Window/Context.hpp /usr/local/include/SFML/Window/Export.hpp /usr/local/include/SFML/Window/Clipboard.hpp /usr/local/include/SFML/Window.hpp /usr/local/include/SFML/Graphics.hpp /usr/local/include/SFML/Audio/SoundFileWriter.hpp /usr/local/include/SFML/Audio/SoundFileReader.hpp /usr/local/include/SFML/Audio/SoundFileFactory.inl /usr/local/include/SFML/Audio/SoundFileFactory.hpp /usr/local/include/SFML/Audio/SoundRecorder.hpp /usr/local/include/SFML/Audio/SoundBufferRecorder.hpp /usr/local/include/SFML/Audio/SoundBuffer.hpp /usr/local/include/SFML/Audio/Sound.hpp /usr/local/include/SFML/Audio/OutputSoundFile.hpp /usr/local/include/SFML/Audio/AlResource.hpp /usr/local/include/SFML/Audio/SoundSource.hpp /usr/local/include/SFML/Audio/SoundStream.hpp /usr/local/include/SFML/Audio/Music.hpp /usr/local/include/SFML/Audio/Listener.hpp /usr/local/include/SFML/Audio/Export.hpp /usr/local/include/SFML/Audio/InputSoundFile.hpp /usr/local/include/SFML/System/Vector3.inl /usr/local/include/SFML/System/Vector3.hpp /usr/local/include/SFML/System/Vector2.inl /usr/local/include/SFML/System/Vector2.hpp /usr/local/include/SFML/System/ThreadLocalPtr.inl /usr/local/include/SFML/System/ThreadLocalPtr.hpp /usr/local/include/SFML/System/ThreadLocal.hpp /usr/local/include/SFML/System/Thread.inl /usr/local/include/SFML/System/Thread.hpp /usr/local/include/SFML/System/String.inl /usr/local/include/SFML/System/Utf.inl /usr/local/include/SFML/System/Utf.hpp /usr/local/include/SFML/System/String.hpp /usr/local/include/SFML/System/Sleep.hpp /usr/local/include/SFML/System/Mutex.hpp /usr/local/include/SFML/System/MemoryInputStream.hpp /usr/local/include/SFML/System/Lock.hpp /usr/local/include/SFML/System/NonCopyable.hpp /usr/local/include/SFML/System/InputStream.hpp /usr/local/include/SFML/System/FileInputStream.hpp /usr/local/include/SFML/System/Err.hpp /usr/local/include/SFML/System/Time.hpp /usr/local/include/SFML/System/Export.hpp /usr/local/include/SFML/System/Clock.hpp /usr/local/include/SFML/Config.hpp /usr/local/include/SFML/System.hpp /usr/local/include/SFML/Audio.hpp /Users/katy.garnier/Documents/cpp_projects/sfml-vscode-boilerplate/src/PCH.hpp src/Main.cpp src/Platform/Platform.hpp src/Platform/MacOS/MacOSPlatform.hpp src/Platform/IPlatform.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/System/ThreadLocalPtr.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+releasetoprod: bin/Release/game.exe
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 409):
+	$(_Q)cp $(TARGET) "$(PRODUCTION_FOLDER)"
+	$(_Q)cp "env/linux/$(PRODUCTION_LINUX_ICON).png" "$(PRODUCTION_FOLDER)/$(PRODUCTION_LINUX_ICON).png"
+	$(_Q)cp "env/linux/exec.desktop" "$(PRODUCTION_FOLDER)/$(NAME).desktop"
+	$(_Q)sed -i 's/^Exec=.*/Exec=$(_LINUX_GREP_CWD)\/$(PRODUCTION_FOLDER)\/$(NAME)/' "$(PRODUCTION_FOLDER)/$(NAME).desktop"
+	$(_Q)sed -i 's/^Path=.*/Path=$(_LINUX_GREP_CWD)\/$(PRODUCTION_FOLDER)/' "$(PRODUCTION_FOLDER)/$(NAME).desktop"
+	$(_Q)sed -i 's/^Name=.*/Name=$(PRODUCTION_LINUX_APP_NAME)/' "$(PRODUCTION_FOLDER)/$(NAME).desktop"
+	$(_Q)sed -i 's/^Comment=.*/Comment=$(PRODUCTION_LINUX_APP_COMMENT)/' "$(PRODUCTION_FOLDER)/$(NAME).desktop"
+	$(_Q)sed -i 's/^Icon=.*/Icon=$(_LINUX_GREP_CWD)\/$(PRODUCTION_FOLDER)\/$(PRODUCTION_LINUX_ICON).png/' "$(PRODUCTION_FOLDER)/$(NAME).desktop"
+	$(_Q)chmod +x "$(PRODUCTION_FOLDER)/$(NAME)"
+	$(_Q)chmod +x "$(PRODUCTION_FOLDER)/$(NAME).desktop"
+	@printf '   Applications directory does not exist, not copying desktop file.\n'
+	
+
+/usr/local/include/SFML/System/ThreadLocal.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Audio/Sound.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+mkdirprod:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 377):
+	$(MKDIR) "$(PRODUCTION_FOLDER)"
+	
+
+/usr/local/include/SFML/Network/TcpListener.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/System/Vector3.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Window/GlResource.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Window/VideoMode.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Window/WindowStyle.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Graphics/VertexBuffer.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Graphics/Text.hpp:
+#  Implicit rule search has not been done.
+ 
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/System/Lock.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+makeproduction: rmprod mkdirprod releasetoprod
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 432):
+	@printf '   $(color_blue)Adding dynamic libraries & project dependencies...\n'
+	$(foreach dep,$(PRODUCTION_DEPENDENCIES),$(call copy_to,$(dep),$(PRODUCTION_FOLDER_RESOURCES)))
+	$(foreach excl,$(PRODUCTION_EXCLUDE),$(shell find "$(PRODUCTION_FOLDER_RESOURCES)" -name '$(excl)' -delete))
+	
+
+/usr/local/include/SFML/System/Utf.inl:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/System/InputStream.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Audio/Music.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Audio/SoundFileFactory.inl:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Audio/InputSoundFile.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bin/Release/dep/Platform/Win32:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 357):
+	$(if $(_CLEAN),,@printf '\$(color_blue)')
+	$(MKDIR) $@
+	
+
+# Not a target:
+src/PCH.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.inl:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/Platform/IPlatform.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/System/Thread.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+buildprod: all makeproduction
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+bin/Release/game.so: bin/Release/obj/PCH.hpp.gch bin/Release/obj/Platform/MacOS/MacOSPlatform.cpp.o bin/Release/obj/Platform/Unix/LinuxPlatform.cpp.o bin/Release/obj/Platform/Win32/WindowsPlatform.cpp.o bin/Release/obj/Main.cpp.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 335):
+	$(call linking_with,$@)
+	$(_Q)$(CC) -shared $(_LIB_DIRS) $(OBJS) -o $@ $(_SYMBOLS) $(_LINK_LIBRARIES) $(BUILD_FLAGS)
+	@printf '\n'
+	
+
+/usr/local/include/SFML/Audio/SoundBuffer.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+bin/Release/obj/PCH.hpp.gch:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.res:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+env/.release.mk:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2021-12-13 20:17:24
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+bin/Release/obj/Utility:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 357):
+	$(if $(_CLEAN),,@printf '\$(color_blue)')
+	$(MKDIR) $@
+	
+
+bin/Release/dep/Main.cpp.d:
+#  Precious file (prerequisite of .PRECIOUS).
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `Main.cpp'
+#  Last modified 2021-12-15 05:32:51
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 468):
+	
+
+/usr/local/include/SFML/Network/UdpSocket.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bin/Release/obj/Platform:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 357):
+	$(if $(_CLEAN),,@printf '\$(color_blue)')
+	$(MKDIR) $@
+	
+
+/usr/local/include/SFML/Window/Keyboard.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Graphics/Font.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 361):
+	$(if $(_CLEAN),@printf '   $(color_blue)Cleaning old build files & folders...\n\n',@printf '$(color_blue)')
+	$(_Q)$(RM) $(TARGET) $(DEPS) $(OBJS)
+	
+
+/usr/local/include/SFML/Audio/AlResource.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Graphics/ConvexShape.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bin/Release/game.exe: bin/Release/obj/PCH.hpp.gch bin/Release/obj/Platform/MacOS/MacOSPlatform.cpp.o bin/Release/obj/Platform/Unix/LinuxPlatform.cpp.o bin/Release/obj/Platform/Win32/WindowsPlatform.cpp.o bin/Release/obj/Main.cpp.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 345):
+	$(call linking_with,$@)
+	$(_Q)$(CC) $(_LIB_DIRS) $(_SYMBOLS) -o $@ $(ORIGIN_FLAG) $(OBJS) $(_LINK_LIBRARIES) $(BUILD_FLAGS)
+	@printf '\n'
+	$(call build_deps)
+	
+
+bin/Release/dep/Platform/MacOS:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 357):
+	$(if $(_CLEAN),,@printf '\$(color_blue)')
+	$(MKDIR) $@
+	
+
+/usr/local/include/SFML/Graphics/Vertex.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Window/Cursor.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Network/SocketSelector.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Audio/SoundFileWriter.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Audio/SoundBufferRecorder.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bin/Release/dep:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 357):
+	$(if $(_CLEAN),,@printf '\$(color_blue)')
+	$(MKDIR) $@
+	
+
+/usr/local/include/SFML/System/Vector3.inl:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Graphics/Transformable.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+ 
+
+/usr/local/include/SFML/Audio/SoundStream.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+env/linux.all.mk:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  Last modified 2021-12-13 20:17:24
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+/usr/local/include/SFML/Window/Context.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bin/Release:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 357):
+	$(if $(_CLEAN),,@printf '\$(color_blue)')
+	$(MKDIR) $@
+	
+
+bin/Release/obj/Platform/MacOS/MacOSPlatform.cpp.o: /Users/katy.garnier/Documents/cpp_projects/sfml-vscode-boilerplate/src/Utility/Types.hpp /Users/katy.garnier/Documents/cpp_projects/sfml-vscode-boilerplate/src/Utility/FileSystem.hpp /usr/local/include/SFML/Network/UdpSocket.hpp /usr/local/include/SFML/Network/TcpListener.hpp /usr/local/include/SFML/Network/SocketSelector.hpp /usr/local/include/SFML/Network/Packet.hpp /usr/local/include/SFML/Network/IpAddress.hpp /usr/local/include/SFML/Network/Http.hpp /usr/local/include/SFML/Network/SocketHandle.hpp /usr/local/include/SFML/Network/Socket.hpp /usr/local/include/SFML/Network/TcpSocket.hpp /usr/local/include/SFML/Network/Export.hpp /usr/local/include/SFML/Network/Ftp.hpp /usr/local/include/SFML/Network.hpp /usr/local/include/SFML/Graphics/VertexBuffer.hpp /usr/local/include/SFML/Graphics/Text.hpp /usr/local/include/SFML/Graphics/Sprite.hpp /usr/local/include/SFML/Graphics/Glsl.inl /usr/local/include/SFML/Graphics/Glsl.hpp /usr/local/include/SFML/Graphics/Shader.hpp /usr/local/include/SFML/Graphics/RenderWindow.hpp /usr/local/include/SFML/Graphics/RenderTexture.hpp /usr/local/include/SFML/Graphics/View.hpp /usr/local/include/SFML/Graphics/RenderTarget.hpp /usr/local/include/SFML/Graphics/RectangleShape.hpp /usr/local/include/SFML/Graphics/Image.hpp /usr/local/include/SFML/Graphics/Texture.hpp /usr/local/include/SFML/Graphics/Glyph.hpp /usr/local/include/SFML/Graphics/Font.hpp /usr/local/include/SFML/Graphics/ConvexShape.hpp /usr/local/include/SFML/Graphics/PrimitiveType.hpp /usr/local/include/SFML/Graphics/Color.hpp /usr/local/include/SFML/Graphics/Vertex.hpp /usr/local/include/SFML/Graphics/VertexArray.hpp /usr/local/include/SFML/Graphics/Transformable.hpp /usr/local/include/SFML/Graphics/Rect.inl /usr/local/include/SFML/Graphics/Rect.hpp /usr/local/include/SFML/Graphics/Transform.hpp /usr/local/include/SFML/Graphics/RenderStates.hpp /usr/local/include/SFML/Graphics/Drawable.hpp /usr/local/include/SFML/Graphics/Shape.hpp /usr/local/include/SFML/Graphics/CircleShape.hpp /usr/local/include/SFML/Graphics/Export.hpp /usr/local/include/SFML/Graphics/BlendMode.hpp /usr/local/include/SFML/Window/WindowStyle.hpp /usr/local/include/SFML/Window/WindowHandle.hpp /usr/local/include/SFML/Window/Window.hpp /usr/local/include/SFML/Window/VideoMode.hpp /usr/local/include/SFML/Window/Touch.hpp /usr/local/include/SFML/Window/Sensor.hpp /usr/local/include/SFML/Window/Mouse.hpp /usr/local/include/SFML/Window/Keyboard.hpp /usr/local/include/SFML/Window/Joystick.hpp /usr/local/include/SFML/Window/Event.hpp /usr/local/include/SFML/Window/Cursor.hpp /usr/local/include/SFML/Window/ContextSettings.hpp /usr/local/include/SFML/Window/GlResource.hpp /usr/local/include/SFML/Window/Context.hpp /usr/local/include/SFML/Window/Export.hpp /usr/local/include/SFML/Window/Clipboard.hpp /usr/local/include/SFML/Window.hpp /usr/local/include/SFML/Graphics.hpp /usr/local/include/SFML/Audio/SoundFileWriter.hpp /usr/local/include/SFML/Audio/SoundFileReader.hpp /usr/local/include/SFML/Audio/SoundFileFactory.inl /usr/local/include/SFML/Audio/SoundFileFactory.hpp /usr/local/include/SFML/Audio/SoundRecorder.hpp /usr/local/include/SFML/Audio/SoundBufferRecorder.hpp /usr/local/include/SFML/Audio/SoundBuffer.hpp /usr/local/include/SFML/Audio/Sound.hpp /usr/local/include/SFML/Audio/OutputSoundFile.hpp /usr/local/include/SFML/Audio/AlResource.hpp /usr/local/include/SFML/Audio/SoundSource.hpp /usr/local/include/SFML/Audio/SoundStream.hpp /usr/local/include/SFML/Audio/Music.hpp /usr/local/include/SFML/Audio/Listener.hpp /usr/local/include/SFML/Audio/Export.hpp /usr/local/include/SFML/Audio/InputSoundFile.hpp /usr/local/include/SFML/System/Vector3.inl /usr/local/include/SFML/System/Vector3.hpp /usr/local/include/SFML/System/Vector2.inl /usr/local/include/SFML/System/Vector2.hpp /usr/local/include/SFML/System/ThreadLocalPtr.inl /usr/local/include/SFML/System/ThreadLocalPtr.hpp /usr/local/include/SFML/System/ThreadLocal.hpp /usr/local/include/SFML/System/Thread.inl /usr/local/include/SFML/System/Thread.hpp /usr/local/include/SFML/System/String.inl /usr/local/include/SFML/System/Utf.inl /usr/local/include/SFML/System/Utf.hpp /usr/local/include/SFML/System/String.hpp /usr/local/include/SFML/System/Sleep.hpp /usr/local/include/SFML/System/Mutex.hpp /usr/local/include/SFML/System/MemoryInputStream.hpp /usr/local/include/SFML/System/Lock.hpp /usr/local/include/SFML/System/NonCopyable.hpp /usr/local/include/SFML/System/InputStream.hpp /usr/local/include/SFML/System/FileInputStream.hpp /usr/local/include/SFML/System/Err.hpp /usr/local/include/SFML/System/Time.hpp /usr/local/include/SFML/System/Export.hpp /usr/local/include/SFML/System/Clock.hpp /usr/local/include/SFML/Config.hpp /usr/local/include/SFML/System.hpp /usr/local/include/SFML/Audio.hpp /Users/katy.garnier/Documents/cpp_projects/sfml-vscode-boilerplate/src/PCH.hpp src/Platform/MacOS/MacOSPlatform.cpp src/Platform/MacOS/MacOSPlatform.hpp src/Platform/IPlatform.hpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Graphics/Transform.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Network/Packet.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Graphics/RectangleShape.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Window/Touch.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.d:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Graphics/Color.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/System/ThreadLocalPtr.inl:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+bin/Release/dep/%.d:
+#  Precious file (prerequisite of .PRECIOUS).
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/System/FileInputStream.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Graphics/View.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bin/Release/dep/PCH.d:
+#  Precious file (prerequisite of .PRECIOUS).
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `PCH'
+#  Last modified 2021-12-14 14:59:43
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+#  commands to execute (from `Makefile', line 468):
+	
+
+.DELETE_ON_ERROR: all
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+ 
+/usr/local/include/SFML/Window/WindowHandle.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/System/Thread.inl:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/Utility/FileSystem.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Window/Window.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Graphics/CircleShape.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Window/Mouse.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Network.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Audio.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Network/IpAddress.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bin/Release/dep/Platform/Unix:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 357):
+	$(if $(_CLEAN),,@printf '\$(color_blue)')
+	$(MKDIR) $@
+	
+
+/usr/local/include/SFML/Window.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Graphics/Shape.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Audio/SoundRecorder.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.asm:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Network/Export.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Audio/Export.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Graphics/PrimitiveType.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Window/Export.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bin/Release/game.dll: bin/Release/obj/PCH.hpp.gch bin/Release/obj/Platform/MacOS/MacOSPlatform.cpp.o bin/Release/obj/Platform/Unix/LinuxPlatform.cpp.o bin/Release/obj/Platform/Win32/WindowsPlatform.cpp.o bin/Release/obj/Main.cpp.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 329):
+	$(call linking_with,$@)
+	-$(_Q)rm -rf $(BLD_DIR)/$(_BASENAME).def $(BLD_DIR)/$(_BASENAME).a
+	$(_Q)$(CC) -shared -Wl,--output-def="$(BLD_DIR)/$(_BASENAME).def" -Wl,--out-implib="$(BLD_DIR)/$(_BASENAME).a" -Wl,--dll $(_LIB_DIRS) $(OBJS) -o $@ $(_SYMBOLS) $(_LINK_LIBRARIES) $(BUILD_FLAGS)
+	@printf '\n'
+	
+
+/usr/local/include/SFML/Audio/Listener.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/usr/local/include/SFML/Window/Joystick.hpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=177/1024=17%, Rehash=0, Collisions=218/1321=17%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 10
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 3818 / max = 3818 / min = 3818 / avg = 3818
+
+# Finished Make data base on Wed Dec 15 08:11:33 2021
+
+ 
